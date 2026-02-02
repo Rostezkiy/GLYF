@@ -1,0 +1,6 @@
+{
+  "appId": "ru.glyfproject.app",
+  "appName": "GLYF",
+  "webDir": "build",
+  "bundledWebRuntime": false
+}

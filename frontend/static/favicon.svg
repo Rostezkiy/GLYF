@@ -1,0 +1,11 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Фоновый квадрат (Brand Background) -->
+  <rect width="1024" height="1024" rx="200" fill="#171717"/>
+  
+  <!-- Основная форма G (белая) -->
+  <path d="M384 320H320C266.98 320 224 362.98 224 416V608C224 661.02 266.98 704 320 704H704C757.02 704 800 661.02 800 608V416C800 362.98 757.02 320 704 320H480V576" 
+        stroke="white" stroke-width="64" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Фирменный Глиф (Indigo #6366F1) -->
+  <rect x="448" y="544" width="64" height="64" rx="8" fill="#6366F1"/>
+</svg>

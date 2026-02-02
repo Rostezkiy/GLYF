@@ -1,0 +1,869 @@
+@import "tailwindcss";
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@plugin "@tailwindcss/typography";
+
+/* =========================================
+   1. GLOBAL VARIABLES & SAFE AREAS
+   ========================================= */
+:root {
+    --radius-sm: 2px; --radius-md: 4px; --radius-lg: 6px; --radius-xl: 8px; --radius-2xl: 12px; --radius-3xl: 16px; --radius-full: 9999px;
+    --ease-default: cubic-bezier(0.25, 0.1, 0.25, 1); --duration-fast: 150ms; --duration-normal: 250ms;
+    
+    /* Safe Areas */
+    --safe-top: env(safe-area-inset-top, 0px);
+    --safe-bottom: env(safe-area-inset-bottom, 0px);
+    
+    /* Danger Palette (Global) */
+    --danger-50: #fef2f2; --danger-100: #fee2e2; --danger-500: #ef4444; --danger-600: #dc2626;
+    
+    --shadow-color: 60 60 50; --shadow-opacity: 0.05;
+}
+
+/* =========================================
+   2. THEMES (Neutral Undertones 100/200/400)
+   ========================================= */
+
+/* --- ИЗУМРУД: Хвойный подтон --- */
+:root, [data-theme='emerald'] {
+    --bg-body: #fafaf9; --bg-surface: #ffffff; --primary-fg: #ffffff;
+    --primary-50: #ecfdf5; --primary-100: #d1fae5; --primary-200: #a7f3d0; --primary-300: #6ee7b7; --primary-400: #34d399; --primary-500: #10b981; --primary-600: #059669; --primary-700: #047857; --primary-800: #065f46; --primary-900: #064e3b; --primary-950: #022c22;
+    --neutral-50: #fafaf9; --neutral-100: #f1f5f1; --neutral-200: #e2e8e2; --neutral-300: #d6d3d1; --neutral-400: #8ba38b; --neutral-500: #78716c; --neutral-600: #57534e; --neutral-700: #44403c; --neutral-800: #292524; --neutral-900: #1c1917; --neutral-950: #0c0a09;
+}
+
+/* --- ТЕМА: ПОЛУНОЧНЫЙ (Глубокий индиго) --- */
+[data-theme='dark'] {
+    /* Основной фон — очень темный синий, а не просто черный */
+    --bg-body: #0b0f1a; 
+    /* Поверхности (карточки) чуть светлее фона */
+    --bg-surface: #161b2a; 
+    --primary-fg: #ffffff;
+
+    /* Акцентные цвета: МЕНЯЕМ логику для 50-100, чтобы карточки стали темными */
+    /* Теперь bg-primary-50 будет выглядеть как глубокий синий фон, а не белое пятно */
+    --primary-50: #1e293b;  --primary-100: #2d3748; --primary-200: #3b4252;
+    --primary-300: #4c566a; --primary-400: #5e81ac; --primary-500: #6366f1; 
+    --primary-600: #818cf8; --primary-700: #a5b4fc; --primary-800: #c7d2fe;
+    --primary-900: #e0e7ff; --primary-950: #f8fafc;
+
+    /* Нейтральные цвета с холодным "полуночным" подтоном (Slate) */
+    --neutral-50: #161b2a;  --neutral-100: #1e293b; --neutral-200: #334155;
+    --neutral-300: #475569; --neutral-400: #94a3b8; --neutral-500: #64748b;
+    --neutral-600: #94a3b8; --neutral-700: #cbd5e1; --neutral-800: #e2e8f0;
+    --neutral-900: #f8fafc; --neutral-950: #ffffff;
+    
+    --shadow-color: 0 0 0; --shadow-opacity: 0.5;
+}
+/* --- АРКТИКА: Синеватый подтон --- */
+[data-theme='nord'] {
+    --bg-body: #f8fafc; --bg-surface: #ffffff; --primary-fg: #ffffff;
+    --primary-50: #f0f9ff; --primary-100: #e0f2fe; --primary-200: #bae6fd; --primary-300: #7dd3fc; --primary-400: #38bdf8; --primary-500: #0ea5e9; --primary-600: #0284c7; --primary-700: #0369a1; --primary-800: #075985; --primary-900: #0c4a6e; --primary-950: #082f49;
+    --neutral-50: #f8fafc; --neutral-100: #e0e8f0; --neutral-200: #cbd5e1; --neutral-300: #94a3b8; --neutral-400: #64748b; --neutral-500: #475569; --neutral-600: #334155; --neutral-700: #1e293b; --neutral-800: #0f172a; --neutral-900: #020617; --neutral-950: #000000;
+}
+
+/* --- РОЗА: Ягодный подтон --- */
+[data-theme='rose'] {
+    --bg-body: #fffafb; --bg-surface: #ffffff; --primary-fg: #ffffff;
+    --primary-50: #fff1f2; --primary-100: #ffe4e6; --primary-200: #fecdd3; --primary-300: #fda4af; --primary-400: #fb7185; --primary-500: #f43f5e; --primary-600: #e11d48; --primary-700: #be123c; --primary-800: #9f1239; --primary-900: #881337; --primary-950: #4c0519;
+    --neutral-50: #fffafb; --neutral-100: #fceef0; --neutral-200: #f9dde2; --neutral-300: #f9d1d9; --neutral-400: #e599a9; --neutral-500: #a27e86; --neutral-600: #8a656d; --neutral-700: #6b4d53; --neutral-800: #4c0519; --neutral-900: #310411; --neutral-950: #1a0208;
+}
+
+/* --- СОЛИД: Строгий графит (Slate) --- */
+[data-theme='solid'] {
+    --bg-body: #f1f5f9; --bg-surface: #ffffff; --primary-fg: #ffffff;
+    --primary-50: #f8fafc; --primary-100: #f1f5f9; --primary-200: #e2e8f0; --primary-300: #cbd5e1; --primary-400: #94a3b8; --primary-500: #334155; --primary-600: #1e293b; --primary-700: #0f172a; --primary-800: #020617; --primary-900: #000000; --primary-950: #000000;
+    --neutral-50: #f8fafc; --neutral-100: #f1f5f9; --neutral-200: #e2e8f0; --neutral-300: #cbd5e1; --neutral-400: #64748b; --neutral-500: #475569; --neutral-600: #334155; --neutral-700: #1e293b; --neutral-800: #0f172a; --neutral-900: #020617; --neutral-950: #000000;
+}
+
+/* =========================================
+   3. TAILWIND THEME CONFIG (v4)
+   ========================================= */
+@theme {
+    /* Font Mapping */
+    /* --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif; */
+    --font-sans: "Roboto", ui-sans-serif, system-ui, sans-serif;
+    /* Primary colors */
+    --color-primary-50: var(--primary-50); --color-primary-100: var(--primary-100); --color-primary-200: var(--primary-200); --color-primary-300: var(--primary-300); --color-primary-400: var(--primary-400); --color-primary-500: var(--primary-500); --color-primary-600: var(--primary-600); --color-primary-700: var(--primary-700); --color-primary-800: var(--primary-800); --color-primary-900: var(--primary-900); --color-primary-950: var(--primary-950);
+    --color-primary-fg: var(--primary-fg);
+
+    /* Neutral colors */
+    --color-neutral-50: var(--neutral-50); --color-neutral-100: var(--neutral-100); --color-neutral-200: var(--neutral-200); --color-neutral-300: var(--neutral-300); --color-neutral-400: var(--neutral-400); --color-neutral-500: var(--neutral-500); --color-neutral-600: var(--neutral-600); --color-neutral-700: var(--neutral-700); --color-neutral-800: var(--neutral-800); --color-neutral-900: var(--neutral-900); --color-neutral-950: var(--neutral-950);
+
+    /* Danger colors (Fixes text-danger-600 error) */
+    --color-danger-50: var(--danger-50); --color-danger-100: var(--danger-100); --color-danger-500: var(--danger-500); --color-danger-600: var(--danger-600);
+
+    /* Semantic Helpers */
+    --color-bg-body: var(--bg-body);
+    --color-surface: var(--bg-surface);
+    --color-text-main: var(--neutral-900);
+    --color-text-muted: var(--neutral-500);
+    --color-border-base: var(--neutral-200);
+
+    --shadow-md: 0 4px 6px -1px rgb(var(--shadow-color) / var(--shadow-opacity));
+    --shadow-xl: 0 20px 25px -5px rgb(var(--shadow-color) / var(--shadow-opacity));
+}
+
+/* =========================================
+   4. BASE STYLES & ACCESSIBILITY
+   ========================================= */
+
+@layer base {
+    /* Фиксируем подложку приложения */
+    html, body {
+        height: 100dvh;
+        width: 100vw;
+        overflow: hidden; /* Запрещаем скролл всему телу */
+        position: fixed;  /* Критично для Capacitor, чтобы WebView не прыгал */
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        @apply bg-bg-body font-sans text-text-main transition-colors duration-300;
+        -webkit-tap-highlight-color: transparent;
+        overscroll-behavior: none;
+    }
+
+    /* Инпуты не должны зумить страницу при фокусе (iOS) */
+    input, textarea {
+        font-size: 16px !important;
+    }
+}
+
+/* Utilities */
+.btn-primary {
+    @apply bg-primary-500 text-primary-fg hover:bg-primary-600 active:scale-[0.98] transition-all duration-200;
+}
+
+/* =========================================
+   4. UTILITIES
+   ========================================= */
+@utility custom-scrollbar {
+    &::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+    }
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: var(--neutral-200);
+        border-radius: var(--radius-full);
+    }
+    &:hover::-webkit-scrollbar-thumb {
+        background-color: var(--neutral-300);
+    }
+}
+
+@utility long-pressing {
+    transform: scale(0.96);
+    opacity: 0.9;
+    transition: transform var(--duration-normal) var(--ease-default);
+}
+
+/* =========================================
+   5. COMPONENT LAYER
+   ========================================= */
+@layer components {
+
+    /* --- Masonry Layout --- */
+    .masonry-grid {
+        column-count: 2;
+        column-gap: 8px;
+        width: 100%;
+
+        @media (min-width: 640px) {
+            column-count: 2;
+            column-gap: 16px;
+        }
+        @media (min-width: 1024px) {
+            column-count: 3;
+        }
+        @media (min-width: 1280px) {
+            column-count: 4;
+        }
+    }
+
+    .break-inside-avoid {
+        break-inside: avoid;
+        margin-bottom: 8px;
+        @media (min-width: 640px) {
+            margin-bottom: 16px;
+        }
+    }
+
+    /* --- Shared Logic: Note & Chat Colors --- */
+    /* Note: While keeping visual "Red/Orange", we align borders to system Neutral where possible or keep subtle tints */
+    .note-color-default, 
+    .ui-note-card.note-default, 
+    .ui-chat-bubble.chat-default {
+        @apply bg-surface border-neutral-200;
+    }
+    .note-color-red,    .ui-note-card.note-red,    .ui-chat-bubble.chat-red    { @apply bg-red-50 border-red-100; }
+    .note-color-orange, .ui-note-card.note-orange, .ui-chat-bubble.chat-orange { @apply bg-orange-50 border-orange-100; }
+    .note-color-yellow, .ui-note-card.note-yellow, .ui-chat-bubble.chat-yellow { @apply bg-yellow-50 border-yellow-100; }
+    .note-color-green,  .ui-note-card.note-green,  .ui-chat-bubble.chat-green  { @apply bg-green-50 border-green-100; }
+    .note-color-blue,   .ui-note-card.note-blue,   .ui-chat-bubble.chat-blue   { @apply bg-blue-50 border-blue-100; }
+    .note-color-purple, .ui-note-card.note-purple, .ui-chat-bubble.chat-purple { @apply bg-purple-50 border-purple-100; }
+    .note-color-pink,   .ui-note-card.note-pink,   .ui-chat-bubble.chat-pink   { @apply bg-pink-50 border-pink-100; }
+
+    /* --- Editor Styling (ProseMirror) --- */
+    .ProseMirror {
+        outline: none;
+        min-height: 100px;
+        line-height: 1.75;
+        color: var(--neutral-700);
+        font-size: 1rem;
+
+        & p.is-editor-empty:first-child::before {
+            content: attr(data-placeholder);
+            color: var(--neutral-400);
+            pointer-events: none;
+            float: left;
+            height: 0;
+        }
+
+        & img {
+            max-width: 100%;
+            height: auto;
+            border-radius: var(--radius-xl);
+            margin: 0.5rem 0;
+            border: 1px solid var(--neutral-100);
+            display: block;
+        }
+    }
+
+    /* --- Checkboxes (Task List) --- */
+    ul[data-type="taskList"] {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        & li {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 0.5rem;
+            gap: 0.75rem;
+
+            & > label {
+                flex: 0 0 auto;
+                margin-right: 0;
+                user-select: none;
+                margin-top: 0.2rem;
+
+                & input[type="checkbox"] {
+                    appearance: none;
+                    background-color: transparent;
+                    margin: 0;
+                    cursor: pointer;
+                    width: 1.15rem;
+                    height: 1.15rem;
+                    border: 2px solid var(--neutral-300);
+                    border-radius: var(--radius-sm);
+                    transition: all var(--duration-fast);
+                    position: relative;
+
+                    &:checked {
+                        background-color: var(--primary-500);
+                        border-color: var(--primary-500);
+
+                        &::before {
+                            content: '';
+                            position: absolute;
+                            top: 1px;
+                            left: 5px;
+                            width: 5px;
+                            height: 9px;
+                            border: solid white;
+                            border-width: 0 2px 2px 0;
+                            transform: rotate(45deg);
+                        }
+                    }
+                }
+            }
+        }
+        
+        & li[data-checked="true"] > div {
+            text-decoration: line-through;
+            color: var(--neutral-400);
+        }
+    }
+
+    /* --- Drag Ghost --- */
+    .drag-ghost {
+        position: fixed;
+        pointer-events: none;
+        z-index: 9999;
+        transform: translate(-50%, -50%);
+        background: white;
+        padding: 10px 14px;
+        border-radius: var(--radius-xl);
+        box-shadow: var(--shadow-xl);
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        font-size: 14px;
+    }
+
+    /* =========================================
+       UI Primitive Components
+       ========================================= */
+    
+    /* Backdrop */
+    .ui-backdrop {
+        @apply fixed inset-0 z-[100] flex bg-black/40 backdrop-blur-sm;
+    }
+    .ui-backdrop-transparent {
+        @apply fixed inset-0 z-[100];
+    }
+
+    /* Action Sheet */
+    .ui-sheet-container {
+        @apply items-end justify-center;
+    }
+    .ui-sheet {
+        @apply bg-surface w-full max-w-lg rounded-t-2xl shadow-2xl overflow-hidden max-h-[80vh] flex flex-col;
+        border-top-left-radius: var(--radius-2xl);
+        border-top-right-radius: var(--radius-2xl);
+    }
+    .ui-sheet-header {
+        @apply pt-3 pb-2 bg-surface border-b border-neutral-100 flex flex-col items-center shrink-0 z-10 relative;
+    }
+    .ui-sheet-handle {
+        @apply w-10 h-1 bg-neutral-300 rounded-full mb-3;
+    }
+    .ui-sheet-title {
+        @apply font-bold text-neutral-800 text-base px-4 text-center truncate w-full;
+    }
+    .ui-sheet-close-btn {
+        @apply absolute top-3 right-3 text-neutral-400 p-2;
+    }
+    .ui-sheet-body {
+        @apply overflow-y-auto p-2 custom-scrollbar;
+    }
+    .ui-sheet-item {
+        @apply w-full text-left p-3.5 flex items-center gap-4 text-base font-medium transition-colors text-neutral-700;
+        border-radius: var(--radius-xl);
+
+        &:hover { @apply bg-neutral-100; }
+        
+        &.is-danger {
+            @apply text-danger-600;
+            &:hover { @apply bg-danger-50; }
+        }
+    }
+    .ui-sheet-icon {
+        @apply w-6 text-center text-lg opacity-70;
+    }
+
+    /* Context Menu */
+    .ui-context-menu {
+        @apply absolute bg-surface shadow-xl border border-neutral-100 py-1.5 w-56 overflow-hidden focus:outline-none;
+        border-radius: var(--radius-lg);
+    }
+    .ui-menu-item {
+        @apply w-full text-left px-4 py-2 text-sm flex items-center gap-3 transition-colors outline-none text-neutral-700;
+
+        &:hover, &:focus { @apply bg-neutral-50; }
+
+        &.is-danger {
+            @apply text-danger-600;
+            &:hover, &:focus { @apply bg-danger-50; }
+        }
+    }
+    .ui-menu-icon {
+        @apply w-5 text-center opacity-70;
+    }
+
+    /* Toast */
+    .ui-toast {
+        @apply fixed bottom-24 left-1/2 -translate-x-1/2 bg-neutral-800/90 text-white px-6 py-2 rounded-full shadow-lg backdrop-blur-sm text-sm font-medium z-[70];
+    }
+
+    /* Dialog (Modal) */
+    .ui-dialog-container { @apply items-center justify-center p-4; }
+    .ui-dialog { 
+        @apply bg-surface shadow-xl w-full max-w-sm overflow-hidden;
+        border-radius: var(--radius-2xl);
+    }
+    .ui-dialog-content { @apply p-5 pb-2 text-center; }
+    .ui-dialog-icon-danger { 
+        @apply w-10 h-10 bg-danger-100 text-danger-500 flex items-center justify-center mx-auto mb-3; 
+        border-radius: var(--radius-full);
+    }
+    .ui-dialog-title { @apply font-bold text-lg text-neutral-800; }
+    .ui-dialog-message { @apply text-neutral-500 text-sm mt-2 leading-relaxed; }
+    .ui-dialog-input-wrapper { @apply px-5 pb-2; }
+    .ui-dialog-input {
+        @apply w-full bg-neutral-50 border border-neutral-200 text-neutral-900 block p-3 outline-none;
+        border-radius: var(--radius-xl);
+        &:focus { @apply ring-2 ring-primary-500; }
+    }
+    .ui-dialog-actions { @apply flex border-t border-neutral-100 mt-4; }
+    .ui-dialog-btn { @apply flex-1 py-3.5 transition-colors font-medium cursor-pointer; }
+    .ui-dialog-btn-cancel {
+        @apply text-neutral-500;
+        &:hover { @apply bg-neutral-50; }
+        &:active { @apply bg-neutral-100; }
+    }
+    .ui-dialog-btn-confirm {
+        @apply font-bold text-primary-600;
+        &:hover { @apply bg-primary-50; }
+        &:active { @apply bg-neutral-50; }
+
+        &.is-danger {
+            @apply text-danger-500;
+            &:hover { @apply bg-danger-50; }
+        }
+    }
+
+    /* Pickers */
+    .ui-picker-window {
+        @apply bg-surface w-full rounded-t-2xl shadow-2xl h-[70vh] flex flex-col pb-[var(--safe-bottom)];
+        @media (min-width: 640px) { 
+            @apply w-[400px];
+            border-radius: var(--radius-2xl);
+        }
+    }
+    .ui-picker-header { @apply p-4 border-b border-neutral-100 flex justify-between items-center bg-surface rounded-t-2xl z-10 sticky top-0; }
+    .ui-picker-title { @apply font-bold text-neutral-800; }
+    .ui-picker-close-btn {
+        @apply w-8 h-8 rounded-full text-neutral-400 flex items-center justify-center transition-colors;
+        &:hover { @apply bg-neutral-100; }
+    }
+    .ui-picker-search-container { @apply p-3 border-b border-neutral-100; }
+    .ui-picker-search-bar { 
+        @apply bg-neutral-100 flex items-center px-3; 
+        border-radius: var(--radius-xl);
+    }
+    .ui-picker-input {
+        @apply w-full bg-transparent border-none text-sm py-2.5 px-2 outline-none;
+        &:focus { @apply ring-0; }
+    }
+    .ui-picker-list { @apply overflow-y-auto p-2 flex-1 custom-scrollbar; }
+    .ui-picker-item {
+        @apply w-full mt-1 text-left p-3 flex items-center justify-between transition-colors cursor-pointer text-neutral-700 hover:bg-neutral-50;
+        border-radius: var(--radius-xl);
+        &.is-selected { @apply bg-primary-50 text-primary-700; }
+        &:disabled { @apply opacity-40 cursor-not-allowed text-neutral-400; }
+    }
+    .ui-picker-create-btn {
+        @apply w-full text-left p-3 flex items-center gap-3 font-medium text-primary-600;
+        border-radius: var(--radius-xl);
+        &:hover { @apply bg-primary-50; }
+    }
+
+    /* Auth Component */
+    .ui-auth-container { 
+        @apply bg-surface w-full max-w-sm shadow-2xl p-8 border border-neutral-100 relative;
+        border-radius: var(--radius-2xl);
+    }
+    .ui-auth-header { @apply text-center mb-6; }
+    .ui-auth-error { 
+        @apply bg-danger-50 text-danger-600 text-sm p-3 mb-4 text-center;
+        border-radius: var(--radius-lg);
+    }
+    .ui-input {
+        @apply w-full bg-neutral-50 border border-neutral-200 px-4 py-3 outline-none transition-all;
+        border-radius: var(--radius-xl);
+        &:focus { @apply ring-2 ring-primary-500 border-transparent; }
+    }
+    .ui-btn-primary {
+        @apply w-full bg-primary-600 text-white font-bold py-3.5 mt-6 transition-transform flex justify-center items-center;
+        border-radius: var(--radius-xl);
+        &:hover { @apply bg-primary-700; }
+        &:active { @apply scale-95; }
+        &:disabled { @apply opacity-70 cursor-not-allowed transform-none; }
+    }
+
+    /* =========================================
+       Functional Components
+       ========================================= */
+
+    /* --- Note Card --- */
+    .ui-note-card {
+        @apply relative border transition-all duration-200 cursor-pointer select-none overflow-hidden flex;
+        border-radius: var(--radius-2xl);
+
+        &:active { @apply scale-95 shadow-sm; }
+        &:hover { @apply shadow-md; }
+
+        &.is-list { @apply flex-row items-stretch min-h-[100px]; }
+        &.is-masonry { @apply flex-col; }
+
+        &:hover .ui-note-actions { @apply opacity-100; }
+    }
+
+    .ui-note-cover-masonry { @apply w-full h-40 bg-neutral-100 relative border-b border-neutral-100/50 shrink-0; }
+    .ui-note-cover-list { @apply w-28 bg-neutral-100 relative border-r border-neutral-100 shrink-0; }
+    
+    .ui-note-pin { @apply absolute top-2 right-2 z-20 flex items-center justify-center text-primary-500; }
+    .ui-note-card.is-masonry .ui-note-pin { @apply bg-surface/80 backdrop-blur rounded-full w-6 h-6 shadow-sm; }
+
+    .ui-note-actions {
+        @apply absolute top-2 right-2 z-20 hidden transition-opacity opacity-0;
+        @media (min-width: 640px) { display: block; }
+    }
+    .ui-note-action-btn {
+        @apply w-8 h-8 bg-surface/90 backdrop-blur rounded-full shadow-sm flex items-center justify-center text-neutral-500 border border-neutral-100 transition-colors;
+        &:hover { @apply bg-surface text-neutral-700; }
+    }
+
+    .ui-note-body { @apply flex-1 min-w-0 flex flex-col w-full; }
+    .ui-note-card.is-masonry .ui-note-body { @apply p-4 pb-3; }
+    .ui-note-card.is-list .ui-note-body { @apply p-3 sm:p-5; }
+
+    .ui-note-title { @apply font-bold text-neutral-900 leading-tight mb-1; }
+    .ui-note-card.is-list .ui-note-title { @apply text-base sm:text-lg line-clamp-1 pr-6; }
+    .ui-note-card.is-masonry .ui-note-title { @apply text-sm sm:text-base line-clamp-2; }
+
+    .ui-note-content { @apply relative w-full text-sm text-neutral-600 overflow-hidden; }
+    .ui-note-tags-container { @apply mt-auto pt-3 flex items-center justify-between gap-2; }
+    .ui-note-tag { 
+        @apply bg-black/5 px-1.5 py-0.5 text-[10px] text-neutral-600 whitespace-nowrap;
+        border-radius: var(--radius-sm);
+    }
+
+    /* --- Settings Component --- */
+    .ui-settings-modal {
+        @apply w-full h-full bg-surface shadow-2xl flex flex-col;
+        @media (min-width: 640px) { @apply max-w-md; }
+    }
+    .ui-settings-header { @apply p-6 border-b border-neutral-100 flex items-center justify-between bg-neutral-50/50 pt-[calc(1.5rem+env(safe-area-inset-top))]; }
+    .ui-settings-title { @apply text-xl font-bold text-neutral-800; }
+    .ui-settings-close-btn {
+        @apply w-8 h-8 rounded-full bg-neutral-200 flex items-center justify-center transition-colors;
+        &:hover { @apply bg-neutral-300; }
+    }
+    .ui-settings-body { @apply flex-1 overflow-y-auto p-6 space-y-8; }
+    .ui-settings-section-title { @apply text-xs font-bold text-neutral-400 uppercase tracking-wider mb-4; }
+    .ui-settings-card { 
+        @apply bg-neutral-50 p-4 border border-neutral-100;
+        border-radius: var(--radius-xl);
+    }
+    .ui-settings-user-avatar { @apply w-12 h-12 bg-primary-100 text-primary-600 rounded-full flex items-center justify-center text-xl font-bold; }
+    .ui-storage-card { 
+        @apply bg-surface border border-neutral-200 p-4;
+        border-radius: var(--radius-xl);
+    }
+    .ui-storage-bar-bg { @apply w-full h-2 bg-neutral-100 rounded-full overflow-hidden mb-4; }
+    .ui-storage-bar-fill { @apply h-full bg-primary-500 rounded-full; }
+    .ui-btn-danger-outline {
+        @apply w-full py-2 text-danger-600 text-sm font-medium transition-colors;
+        border-radius: var(--radius-lg);
+        &:hover { @apply bg-danger-50; }
+    }
+    .ui-guest-card { 
+        @apply bg-primary-50 border border-primary-100 p-6 text-center;
+        border-radius: var(--radius-xl);
+    }
+    .ui-settings-footer { @apply p-6 border-t border-neutral-100 pb-[calc(1.5rem+env(safe-area-inset-bottom))]; }
+    .ui-btn-logout {
+        @apply w-full py-3 text-neutral-600 font-medium transition-colors flex items-center justify-center gap-2;
+        border-radius: var(--radius-xl);
+        &:hover { @apply bg-neutral-100; }
+    }
+
+    /* --- Attachment Preview --- */
+    .ui-attachment-card {
+        @apply relative bg-surface border border-neutral-200 overflow-hidden w-full aspect-square flex flex-col items-center justify-center cursor-pointer transition-all shadow-sm;
+        border-radius: var(--radius-xl);
+        &:hover { @apply border-primary-300 shadow-md; }
+        
+        &:hover .ui-attachment-delete-btn { @apply opacity-100; }
+    }
+    .ui-attachment-delete-btn {
+        @apply absolute top-1 right-1 z-20 w-6 h-6 bg-surface/90 backdrop-blur shadow-sm text-neutral-500 rounded-full flex items-center justify-center transition-opacity opacity-0;
+        &:hover { @apply text-danger-500; }
+    }
+    .ui-attachment-media { @apply w-full h-full object-cover; }
+    .ui-attachment-badge-cloud { @apply absolute bottom-1 right-1 bg-primary-600/90 text-white rounded px-1 py-0.5 text-[7px] font-bold shadow-sm tracking-wider; }
+    .ui-attachment-placeholder { @apply p-3 w-full h-full flex flex-col items-center justify-center bg-neutral-50/50; }
+
+    /* --- Media Viewer --- */
+    .ui-media-overlay {
+        @apply fixed inset-0 z-[60] bg-black/95 backdrop-blur-sm flex items-center justify-center p-4;
+        @media (min-width: 640px) { @apply p-8; }
+    }
+    .ui-media-close-btn {
+        @apply absolute top-4 right-4 w-10 h-10 bg-surface/10 text-white rounded-full flex items-center justify-center transition-colors z-50;
+        &:hover { @apply bg-surface/20; }
+    }
+    .ui-media-dialog {
+        @apply bg-surface p-8 w-full shadow-2xl flex flex-col items-center gap-6 text-center;
+        border-radius: var(--radius-2xl);
+        @media (min-width: 640px) { @apply w-96; }
+    }
+    .ui-media-content-img { 
+        @apply max-w-full max-h-[80vh] object-contain shadow-2xl bg-black;
+        border-radius: var(--radius-lg);
+    }
+    .ui-media-content-video { 
+        @apply max-w-full max-h-[80vh] shadow-2xl bg-black outline-none;
+        border-radius: var(--radius-lg);
+    }
+
+    /* --- Chat Bubble --- */
+    .ui-chat-wrapper {
+        @apply w-full flex mb-2 px-2;
+        @media (min-width: 640px) { @apply px-0; }
+    }
+    .ui-chat-bubble {
+        @apply relative max-w-[85%] p-2.5 shadow-sm border text-left transition-shadow cursor-pointer select-text ml-0;
+        border-radius: var(--radius-2xl);
+        border-bottom-left-radius: 0;
+
+        @media (min-width: 640px) { @apply max-w-[70%]; }
+
+        &:hover { @apply shadow-md; }
+    }
+    .ui-chat-cover { 
+        @apply mb-2 overflow-hidden max-h-60 border border-neutral-100;
+        border-radius: var(--radius-lg);
+    }
+    .ui-chat-title { @apply font-bold text-primary-700 text-sm mb-1; }
+    .ui-chat-content { @apply text-neutral-800 text-sm prose-sm whitespace-pre-wrap break-words leading-relaxed overflow-hidden max-h-[400px]; }
+
+    .ui-chat-media-wrapper {
+        @apply space-y-1;
+        &.has-content { @apply mt-2; }
+    }
+    .ui-chat-media-item {
+        @apply overflow-hidden border border-neutral-100 my-1 cursor-pointer relative flex items-center justify-center max-w-sm max-h-80 bg-black/5 transition-opacity;
+        border-radius: var(--radius-lg);
+        &:hover { @apply opacity-90; }
+    }
+    .ui-chat-audio-item {
+        @apply flex items-center gap-2 p-2 bg-primary-50 border border-primary-100 cursor-pointer transition-colors;
+        border-radius: var(--radius-xl);
+        &:hover { @apply bg-primary-100; }
+    }
+    .ui-chat-file-item { 
+        @apply flex items-center gap-2 p-1.5 bg-black/5 text-xs text-neutral-600 overflow-hidden;
+        border-radius: var(--radius-lg);
+    }
+    .ui-chat-footer { @apply flex items-end justify-between gap-2 mt-1 min-h-[14px]; }
+    .ui-chat-time { @apply text-[10px] text-neutral-400 whitespace-nowrap ml-auto flex items-center gap-1 leading-none self-end pb-0.5; }
+
+    /* --- Header --- */
+.ui-header {
+    @apply fixed top-0 left-0 right-0 bg-surface/80 backdrop-blur-md border-b border-neutral-100 z-40 px-4 flex items-center justify-between shadow-sm select-none;
+    padding-top: var(--safe-top);
+    height: calc(3.5rem + var(--safe-top));
+}
+    .ui-header-search-mobile { @apply absolute inset-0 bg-surface z-50 flex items-center px-2 gap-2 pt-[env(safe-area-inset-top)]; }
+    .ui-header-btn {
+        @apply w-12 h-12 rounded-full flex items-center justify-center text-neutral-500 transition-colors;
+        &:hover { @apply bg-neutral-100; }
+        &:active { @apply scale-95; }
+        &.is-active { @apply text-primary-600; }
+    }
+    .ui-header-title {
+        @apply font-bold text-xl truncate max-w-[150px];
+        @media (min-width: 640px) { @apply max-w-none; }
+
+        &.is-trash { @apply text-danger-600; }
+        &.is-archive { @apply text-neutral-600; }
+        &.is-brand { @apply bg-gradient-to-r from-primary-600 to-purple-600 bg-clip-text text-transparent; }
+    }
+    .ui-search-input-wrapper {
+        @apply relative hidden;
+        @media (min-width: 640px) { @apply block; }
+    }
+    .ui-search-input {
+        @apply bg-neutral-100 border-transparent rounded-full py-1.5 pl-4 pr-8 text-sm w-48 transition-all outline-none;
+        &:focus { @apply bg-surface ring-2 ring-primary-500; }
+    }
+    .ui-search-input-mobile {
+        @apply w-full bg-neutral-100 border-transparent rounded-full py-2 pl-4 pr-10 text-sm transition-all outline-none;
+        &:focus { @apply bg-surface ring-2 ring-primary-500; }
+    }
+    .ui-header-dropdown-overlay { @apply fixed inset-0 z-40; }
+    .ui-header-dropdown { 
+        @apply absolute right-0 top-12 bg-surface shadow-xl border border-neutral-100 py-2 overflow-hidden z-50;
+        border-radius: var(--radius-xl);
+    }
+    .ui-header-dropdown-title { @apply px-4 py-2 text-xs font-bold text-neutral-400 uppercase tracking-wider; }
+    .ui-header-dropdown-item {
+        @apply w-full text-left px-4 py-2 flex items-center justify-between text-sm text-neutral-700;
+        &:hover { @apply bg-primary-50; }
+    }
+
+    /* --- Editor Component --- */
+    .ui-editor-backdrop {
+        @apply fixed inset-0 z-50 bg-surface/50 backdrop-blur-sm flex items-center justify-center p-0;
+        @media (min-width: 640px) { @apply p-4; }
+        @media (min-width: 768px) { @apply p-6; }
+    }
+    .ui-editor-window {
+        @apply bg-surface w-full h-full shadow-2xl flex flex-col overflow-hidden relative;
+        @media (min-width: 640px) { 
+            @apply h-auto max-h-[90vh] max-w-4xl;
+            border-radius: var(--radius-2xl);
+        }
+    }
+    .ui-editor-toolbar { @apply flex items-center justify-between px-4 py-3 border-b border-neutral-100 bg-surface z-10 shrink-0 pt-[calc(0.75rem+env(safe-area-inset-top))]; }
+    .ui-editor-btn-back {
+        @apply w-10 h-10 -ml-2 flex items-center justify-center rounded-full text-neutral-600 transition-colors;
+        &:hover { @apply bg-neutral-100; }
+    }
+    .ui-editor-btn-icon {
+        @apply w-12 h-12 rounded-full flex items-center justify-center transition-colors text-neutral-400;
+        &:hover { @apply bg-neutral-100; }
+        &.is-active { @apply text-primary-600; }
+    }
+    .ui-editor-menu { 
+        @apply absolute right-0 top-12 w-56 bg-surface shadow-xl border border-neutral-100 py-1 z-50 overflow-hidden;
+        border-radius: var(--radius-xl);
+    }
+    .ui-editor-menu-info { @apply px-4 py-2 text-xs text-neutral-400 border-b border-neutral-50; }
+    .ui-editor-menu-item {
+        @apply w-full text-left px-4 py-3 text-sm flex items-center gap-3 transition-colors text-neutral-700;
+        &:hover { @apply bg-neutral-50; }
+        &.is-danger {
+            @apply text-danger-600;
+            &:hover { @apply bg-danger-50; }
+        }
+    }
+    .ui-editor-menu-overlay { @apply fixed inset-0 z-40; }
+    
+    .ui-editor-cover-container {
+        @apply relative w-full h-48 bg-neutral-50;
+        @media (min-width: 640px) { @apply h-64; }
+        
+        &:hover .ui-editor-cover-remove-btn { @apply opacity-100; }
+    }
+    .ui-editor-cover-img { @apply w-full h-full object-cover; }
+    .ui-editor-cover-remove-btn {
+        @apply absolute top-2 right-2 bg-black/50 text-white rounded-full p-2 transition-opacity opacity-0;
+        &:hover { @apply bg-black/70; }
+    }
+
+    .ui-editor-scroll-area { @apply overflow-y-auto flex-1 custom-scrollbar bg-surface; }
+    .ui-editor-body {
+        @apply p-5 mx-auto min-h-[50vh];
+        @media (min-width: 640px) { @apply p-10 max-w-3xl; }
+    }
+    .ui-editor-title-input {
+        @apply w-full text-3xl font-bold text-neutral-900 placeholder-neutral-300 border-none outline-none bg-transparent mb-4;
+        @media (min-width: 640px) { @apply text-4xl; }
+    }
+    .ui-editor-chips-wrapper { @apply flex flex-wrap items-center gap-2 mb-6; }
+    .ui-editor-chip-folder {
+        @apply flex items-center gap-2 px-3 py-1.5 rounded-full bg-neutral-100 text-xs text-neutral-600 transition-colors;
+        @media (min-width: 640px) { @apply text-sm; }
+        &:hover { @apply bg-neutral-200; }
+    }
+    .ui-editor-chip-tag {
+        @apply flex items-center gap-1 px-3 py-1.5 rounded-full bg-primary-50 text-primary-700 text-xs transition-colors;
+        @media (min-width: 640px) { @apply text-sm; }
+        &:hover { @apply bg-primary-100; }
+    }
+    .ui-editor-chip-remove { @apply ml-1 opacity-50 hover:opacity-100; }
+    .ui-editor-add-tag-btn {
+        @apply w-8 h-8 rounded-full flex items-center justify-center text-neutral-400 transition-colors;
+        &:hover { @apply bg-neutral-100 text-neutral-600; }
+    }
+    .ui-editor-attachments-section { @apply mb-6; }
+    .ui-editor-section-title { @apply text-xs font-bold text-neutral-400 uppercase tracking-wider mb-3 flex items-center gap-2; }
+    .ui-editor-attachments-grid {
+        @apply grid grid-cols-2 gap-3;
+        @media (min-width: 640px) { @apply grid-cols-3; }
+    }
+    .ui-editor-download-overlay { @apply absolute inset-0 bg-surface/80 flex items-center justify-center rounded-lg z-10; }
+    .ui-editor-content-wrapper { @apply pb-20; }
+    .ui-editor-bottom-bar {
+        @apply border-t border-neutral-100 bg-surface p-3 flex items-center justify-between shrink-0 px-4 pb-[calc(0.75rem+env(safe-area-inset-bottom))];
+        @media (min-width: 640px) { @apply justify-start gap-4; }
+    }
+    .ui-editor-bottom-btn {
+        @apply p-2 text-neutral-500 rounded transition-colors;
+        &:hover { @apply bg-neutral-100; }
+        &.is-bold { @apply font-bold text-neutral-700; }
+        &.is-italic { @apply italic text-neutral-700; }
+        &.is-strike { @apply line-through text-neutral-700; }
+    }
+    .ui-editor-divider { @apply w-px h-6 bg-neutral-200 mx-1; }
+
+    /* --- Sidebar --- */
+    .ui-sidebar-backdrop { @apply fixed inset-0 z-30 bg-black/30 backdrop-blur-sm; }
+    .ui-sidebar { @apply fixed inset-y-0 left-0 w-[320px] bg-surface z-40 shadow-2xl flex flex-col pt-[env(safe-area-inset-top)]; }
+    .ui-sidebar-header { @apply p-5 border-b border-neutral-100 flex items-center gap-3; }
+    .ui-sidebar-logo { @apply w-8 h-8 rounded-lg bg-primary-600 flex items-center justify-center text-white font-bold text-lg shadow-md shadow-primary-200; }
+    .ui-sidebar-title { @apply font-bold text-xl text-neutral-800 tracking-tight; }
+    .ui-sidebar-content { @apply flex-1 overflow-y-auto py-4 px-3 space-y-6 custom-scrollbar; }
+    .ui-sidebar-nav-item {
+        @apply w-full flex items-center gap-3 p-2.5 rounded-lg transition-colors text-left text-sm font-medium text-neutral-600;
+        &:hover { @apply bg-neutral-100; }
+        &.is-active { @apply bg-primary-50 text-primary-700; }
+    }
+    .ui-sidebar-nav-icon { @apply w-6 text-center; }
+    
+    .ui-sidebar-section-header {
+        @apply flex items-center justify-between px-2 mb-2 rounded border border-transparent transition-colors;
+        &.is-drop-target { @apply bg-primary-100 border-primary-200; }
+    }
+    .ui-sidebar-section-title { @apply text-xs font-bold text-neutral-400 uppercase tracking-wider pointer-events-none; }
+    .ui-sidebar-add-btn {
+        @apply text-neutral-400 p-1 transition-colors;
+        &:hover { @apply text-primary-600; }
+    }
+    .ui-sidebar-tree-item {
+        @apply flex items-center rounded-lg transition-colors cursor-pointer relative select-none touch-manipulation text-neutral-600;
+        &:hover { @apply bg-neutral-50; }
+        &.is-note { @apply text-neutral-700; }
+        &.is-active { @apply bg-primary-50 text-primary-700; }
+        &.is-drop-target { @apply bg-primary-100 ring-1 ring-primary-300 z-10; }
+        &.opacity-40 { opacity: 0.4; }
+    }
+    .ui-sidebar-caret-wrapper { @apply p-1.5 w-6 h-8 flex items-center justify-center flex-shrink-0 pointer-events-none; }
+    .ui-sidebar-item-content { @apply flex-1 py-2 pr-2 flex items-center gap-2 truncate pointer-events-none; }
+    
+    .ui-sidebar-tag-chip {
+        @apply px-2.5 py-1 rounded-md text-xs font-medium border transition-colors bg-surface text-neutral-600 border-neutral-100;
+        &:hover { @apply bg-neutral-50; }
+        &.is-active { @apply bg-primary-100 text-primary-700 border-primary-200; }
+    }
+    .ui-sidebar-footer { @apply p-4 border-t border-neutral-100 bg-surface pb-[calc(1rem+env(safe-area-inset-bottom))]; }
+    .ui-sidebar-settings-btn {
+        @apply w-full flex items-center gap-3 p-2 rounded-lg text-neutral-600 transition-colors text-left;
+        &:hover { @apply bg-neutral-100; }
+    }
+
+    /* --- Chat View --- */
+    .ui-chat-container { @apply flex flex-col h-full relative; }
+    .ui-chat-pinned-header { @apply bg-surface/95 backdrop-blur border-b border-neutral-200 py-2 px-4 flex items-center gap-3 shadow-sm shrink-0 z-10 overflow-x-auto custom-scrollbar; }
+    .ui-chat-pinned-item {
+        @apply bg-neutral-100 rounded-lg p-2 text-left max-w-[150px] shrink-0 transition-colors;
+        &:hover { @apply bg-neutral-200; }
+    }
+    .ui-chat-context-bar { @apply bg-neutral-50/80 backdrop-blur border-b border-neutral-200 py-1 px-4 flex items-center justify-center text-xs text-neutral-500 gap-2 shrink-0 z-0; }
+    .ui-chat-messages-area { @apply flex-1 overflow-y-auto custom-scrollbar p-2 sm:p-4 flex flex-col-reverse gap-1; }
+    .ui-chat-empty-state { @apply flex-1 flex flex-col items-center justify-center text-neutral-400 min-h-[200px]; }
+    .ui-chat-input-area { @apply bg-surface border-t border-neutral-200 p-2 sm:p-3 pb-[calc(0.5rem+env(safe-area-inset-bottom))] shrink-0 z-20 relative; }
+    .ui-chat-recording-overlay { @apply absolute inset-0 bg-surface z-30 flex items-center px-4 gap-4; }
+    .ui-chat-attachment-preview { @apply relative bg-neutral-100 rounded-lg p-1 w-16 h-16 flex items-center justify-center shrink-0 border border-neutral-200; }
+    .ui-chat-attachment-remove { @apply absolute -top-1.5 -right-1.5 bg-neutral-600 text-white rounded-full w-5 h-5 flex items-center justify-center text-xs shadow-md; }
+    .ui-chat-attach-btn {
+        @apply w-10 h-10 rounded-full text-neutral-500 transition-colors shrink-0 mb-1 flex items-center justify-center;
+        &:hover { @apply bg-neutral-100; }
+    }
+    .ui-chat-textarea-wrapper {
+        @apply flex-1 bg-neutral-100 rounded-2xl flex items-center min-h-[44px] px-4 py-2 border border-transparent transition-all;
+        &:focus-within { @apply bg-surface border-primary-300 ring-2 ring-primary-100; }
+    }
+    .ui-chat-textarea {
+        @apply w-full bg-transparent border-none outline-none resize-none max-h-32 text-neutral-800 text-sm py-0.5 custom-scrollbar;
+        min-height: 24px;
+    }
+    .ui-chat-send-btn {
+        @apply w-11 h-11 rounded-full bg-primary-600 text-white shadow-md shadow-primary-200 transition-transform shrink-0 flex items-center justify-center mb-0.5;
+        &:hover { @apply bg-primary-700; }
+        &:active { @apply scale-95; }
+    }
+    .ui-chat-mic-btn {
+        @apply w-11 h-11 rounded-full bg-neutral-200 text-neutral-600 shadow-sm transition-transform shrink-0 flex items-center justify-center mb-0.5;
+        &:hover { @apply bg-neutral-300; }
+        &:active { @apply scale-95; }
+    }
+}

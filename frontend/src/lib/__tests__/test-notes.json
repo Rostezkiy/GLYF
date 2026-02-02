@@ -1,0 +1,3403 @@
+[
+  {
+    "id": "test-note-a1384dc1-d688-4bb1-821c-c0029f21751c",
+    "title": "Исследование технологии #1",
+    "content": "# Исследование технологии #1\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": "folder-work",
+    "tags": [
+      "tag-idea"
+    ],
+    "color": "#10B981",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": true,
+    "isDeleted": false,
+    "createdAt": "2025-12-09T17:45:26.353Z",
+    "updatedAt": "2025-12-20T22:17:37.373Z",
+    "attachments": [],
+    "size": 160
+  },
+  {
+    "id": "test-note-b9cc820d-51d3-4acb-935f-a06f52e9a0ec",
+    "title": "Финансовый план #2",
+    "content": "# Финансовый план #2\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": "folder-ideas",
+    "tags": [
+      "tag-important",
+      "tag-project",
+      "tag-idea"
+    ],
+    "color": "",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-06-08T20:25:43.273Z",
+    "updatedAt": "2025-08-20T19:22:34.469Z",
+    "attachments": [],
+    "size": 152
+  },
+  {
+    "id": "test-note-f10ae6c1-c580-4884-9a0c-ce11ba699ab4",
+    "title": "Рецепт приготовления #3",
+    "content": "Это простая заметка \"Рецепт приготовления #3\". Содержит обычный текст без форматирования.",
+    "folderId": null,
+    "tags": [],
+    "color": "",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-12-30T20:56:30.368Z",
+    "updatedAt": "2026-01-06T02:53:55.823Z",
+    "attachments": [],
+    "size": 89
+  },
+  {
+    "id": "test-note-be8f0c89-94ba-4174-9680-9e8fa095a61d",
+    "title": "Обучение новому навыку #4",
+    "content": "Заметка \"Обучение новому навыку #4\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-archive",
+    "tags": [],
+    "color": "#10B981",
+    "coverImage": "",
+    "isPinned": true,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-07-21T23:23:44.657Z",
+    "updatedAt": "2025-09-13T00:50:22.886Z",
+    "attachments": [],
+    "size": 1199
+  },
+  {
+    "id": "test-note-64eee136-0beb-4e7d-aad2-091bf799001c",
+    "title": "Исследование технологии #5",
+    "content": "<h1>Исследование технологии #5</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": "folder-personal",
+    "tags": [
+      "tag-reference",
+      "tag-idea",
+      "tag-todo"
+    ],
+    "color": "",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-08-05T06:53:59.717Z",
+    "updatedAt": "2025-11-16T04:03:19.783Z",
+    "attachments": [],
+    "size": 156
+  },
+  {
+    "id": "test-note-d98324ce-0b73-4081-a267-1e46e301d837",
+    "title": "Рецепт приготовления #6",
+    "content": "# Рецепт приготовления #6\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": "folder-archive",
+    "tags": [
+      "tag-important",
+      "tag-todo"
+    ],
+    "color": "#3B82F6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-05-09T19:24:22.111Z",
+    "updatedAt": "2025-10-15T01:18:20.122Z",
+    "attachments": [
+      {
+        "id": "att-791ab0fb-6c0f-429d-9b66-74d06ffc35d5",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-af37feb7-2592-4dbe-ae0a-4bea10680d19",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 157
+  },
+  {
+    "id": "test-note-8434f6c5-9cd8-40ca-ac17-eeb947620ada",
+    "title": "Размышления о жизни #7",
+    "content": "<h1>Размышления о жизни #7</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": "folder-ideas",
+    "tags": [
+      "tag-idea",
+      "tag-reference",
+      "tag-todo"
+    ],
+    "color": "#3B82F6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-01-08T04:21:52.860Z",
+    "updatedAt": "2025-11-27T15:43:36.428Z",
+    "attachments": [],
+    "size": 152
+  },
+  {
+    "id": "test-note-c9b8f387-3218-465c-b597-54df8ebcf170",
+    "title": "Встреча с командой #8",
+    "content": "Коротко: Встреча с командой #8",
+    "folderId": "folder-archive",
+    "tags": [
+      "tag-idea"
+    ],
+    "color": "#3B82F6",
+    "coverImage": "https://picsum.photos/seed/test-note-c9b8f387-3218-465c-b597-54df8ebcf170/800/400",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-01-11T00:21:25.413Z",
+    "updatedAt": "2025-07-10T00:48:46.027Z",
+    "attachments": [],
+    "size": 30
+  },
+  {
+    "id": "test-note-92de0b1f-5970-4c81-b79a-4d822ffd3e0c",
+    "title": "Идеи для проекта #9",
+    "content": "Заметка \"Идеи для проекта #9\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-personal",
+    "tags": [
+      "tag-important",
+      "tag-todo"
+    ],
+    "color": "",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-12-19T20:30:55.629Z",
+    "updatedAt": "2025-12-25T05:58:54.094Z",
+    "attachments": [],
+    "size": 1193
+  },
+  {
+    "id": "test-note-b3714a94-a0f3-4a89-bba3-e107a6b00c33",
+    "title": "Ежедневные задачи #10",
+    "content": "Заметка \"Ежедневные задачи #10\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": null,
+    "tags": [],
+    "color": "#8B5CF6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-06-04T07:53:05.452Z",
+    "updatedAt": "2025-07-09T17:31:45.544Z",
+    "attachments": [
+      {
+        "id": "att-2757985a-3fdc-4f34-9f99-67d326a7b0fd",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-70f88b45-99d1-40d5-b50c-e533fe549835",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 1195
+  },
+  {
+    "id": "test-note-ff7e6ab6-1510-4fa8-988d-53ac7e3abee3",
+    "title": "Путешествие мечты #11",
+    "content": "Заметка \"Путешествие мечты #11\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-personal",
+    "tags": [],
+    "color": "#F59E0B",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-03-16T21:21:54.975Z",
+    "updatedAt": "2025-03-26T04:03:04.969Z",
+    "attachments": [],
+    "size": 1195
+  },
+  {
+    "id": "test-note-cd17f10a-bf44-409e-b1ec-f61aea4a5e52",
+    "title": "Ежедневные задачи #12",
+    "content": "Это простая заметка \"Ежедневные задачи #12\". Содержит обычный текст без форматирования.",
+    "folderId": "folder-archive",
+    "tags": [
+      "tag-idea"
+    ],
+    "color": "#F59E0B",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-05-26T11:23:04.091Z",
+    "updatedAt": "2025-10-28T07:42:31.310Z",
+    "attachments": [],
+    "size": 87
+  },
+  {
+    "id": "test-note-2ab84236-de42-4735-9739-ba01f7ac00e7",
+    "title": "Список покупок #13",
+    "content": "# Список покупок #13\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": "folder-work",
+    "tags": [
+      "tag-todo",
+      "tag-project",
+      "tag-idea"
+    ],
+    "color": "#10B981",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": true,
+    "createdAt": "2025-10-15T16:32:01.423Z",
+    "updatedAt": "2025-11-07T16:58:56.476Z",
+    "attachments": [],
+    "size": 152
+  },
+  {
+    "id": "test-note-f6b3ab30-9696-4045-abf5-4398c758e01e",
+    "title": "Рецепт приготовления #14",
+    "content": "Это простая заметка \"Рецепт приготовления #14\". Содержит обычный текст без форматирования.",
+    "folderId": null,
+    "tags": [
+      "tag-idea",
+      "tag-reference"
+    ],
+    "color": "#3B82F6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-01-28T07:12:47.869Z",
+    "updatedAt": "2025-11-28T06:08:03.101Z",
+    "attachments": [
+      {
+        "id": "att-418cb69d-152f-4c37-a812-db113ce8cb7e",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-9cc5c4ad-625e-45fc-bd8f-dd1052e8cf10",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 90
+  },
+  {
+    "id": "test-note-7ad292da-5a2a-4b95-859f-0ca98915e19c",
+    "title": "Путешествие мечты #15",
+    "content": "Заметка \"Путешествие мечты #15\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-archive",
+    "tags": [
+      "tag-idea",
+      "tag-reference",
+      "tag-todo"
+    ],
+    "color": "#F59E0B",
+    "coverImage": "",
+    "isPinned": true,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-09-24T14:28:23.728Z",
+    "updatedAt": "2025-10-05T19:56:38.935Z",
+    "attachments": [],
+    "size": 1195
+  },
+  {
+    "id": "test-note-0b8f3b4e-d730-4cd2-bd1b-55a40719987c",
+    "title": "Ежедневные задачи #16",
+    "content": "Заметка \"Ежедневные задачи #16\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": null,
+    "tags": [
+      "tag-idea",
+      "tag-reference",
+      "tag-project"
+    ],
+    "color": "",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-05-27T01:34:10.824Z",
+    "updatedAt": "2025-12-08T10:15:28.607Z",
+    "attachments": [
+      {
+        "id": "att-75e67448-7d23-4260-bfae-48485c2042c9",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-90569414-520d-4916-8d97-3e56ea964895",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 1195
+  },
+  {
+    "id": "test-note-2ab8c15f-01bf-4ac2-8fa1-cc15152b723d",
+    "title": "Идеи для проекта #17",
+    "content": "Заметка \"Идеи для проекта #17\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": null,
+    "tags": [
+      "tag-meeting",
+      "tag-important"
+    ],
+    "color": "#EF4444",
+    "coverImage": "",
+    "isPinned": true,
+    "isArchived": true,
+    "isDeleted": false,
+    "createdAt": "2025-07-28T02:48:30.505Z",
+    "updatedAt": "2025-12-22T06:30:23.692Z",
+    "attachments": [
+      {
+        "id": "att-d1e3bcea-8161-4648-9865-72b56ada3945",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-df3a33d7-da81-4a96-b418-83e62938f9e2",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 1194
+  },
+  {
+    "id": "test-note-60526697-38dc-486d-a409-705d0690d7c7",
+    "title": "Рецепт приготовления #18",
+    "content": "# Рецепт приготовления #18\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": "folder-work",
+    "tags": [
+      "tag-todo",
+      "tag-reference",
+      "tag-meeting"
+    ],
+    "color": "#3B82F6",
+    "coverImage": "https://picsum.photos/seed/test-note-60526697-38dc-486d-a409-705d0690d7c7/800/400",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-06-09T01:17:14.072Z",
+    "updatedAt": "2025-06-19T11:41:38.720Z",
+    "attachments": [
+      {
+        "id": "att-145ae14e-22af-4b06-86fa-3b2735aa7989",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-76e680a2-c9eb-4b41-9a2c-6f922205d8e2",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 158
+  },
+  {
+    "id": "test-note-d861ee5d-7af3-4505-a2ff-69aff46159e8",
+    "title": "Исследование технологии #19",
+    "content": "# Исследование технологии #19\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": null,
+    "tags": [
+      "tag-project",
+      "tag-meeting"
+    ],
+    "color": "#EF4444",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-10-23T11:45:32.871Z",
+    "updatedAt": "2026-01-02T15:20:01.081Z",
+    "attachments": [
+      {
+        "id": "att-b7fc0800-13c0-4547-a5a2-67eeec2e3fa2",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-6b439cf6-e486-4e72-a6f2-980df6a4f042",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 161
+  },
+  {
+    "id": "test-note-8099db38-4eab-4e9f-bfe1-fd1037d15687",
+    "title": "Ремонт в квартире #20",
+    "content": "Это простая заметка \"Ремонт в квартире #20\". Содержит обычный текст без форматирования.",
+    "folderId": "folder-ideas",
+    "tags": [
+      "tag-meeting"
+    ],
+    "color": "#EF4444",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-06-15T18:35:05.957Z",
+    "updatedAt": "2025-09-22T21:09:10.892Z",
+    "attachments": [],
+    "size": 87
+  },
+  {
+    "id": "test-note-b06b912f-c17f-4977-8581-8b6547e01014",
+    "title": "Встреча с командой #21",
+    "content": "Заметка \"Встреча с командой #21\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-ideas",
+    "tags": [
+      "tag-important",
+      "tag-todo",
+      "tag-project"
+    ],
+    "color": "#EF4444",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": true,
+    "createdAt": "2025-03-18T20:28:26.235Z",
+    "updatedAt": "2025-04-04T08:49:55.120Z",
+    "attachments": [],
+    "size": 1196
+  },
+  {
+    "id": "test-note-6580bd78-98d6-4c86-9652-cd4470a58be2",
+    "title": "Список покупок #22",
+    "content": "Это простая заметка \"Список покупок #22\". Содержит обычный текст без форматирования.",
+    "folderId": null,
+    "tags": [],
+    "color": "#8B5CF6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": true,
+    "isDeleted": false,
+    "createdAt": "2026-01-01T05:43:40.986Z",
+    "updatedAt": "2026-01-05T07:29:34.230Z",
+    "attachments": [],
+    "size": 84
+  },
+  {
+    "id": "test-note-4d26ac53-168b-43be-8f98-c685ce23308e",
+    "title": "Ремонт в квартире #23",
+    "content": "Это простая заметка \"Ремонт в квартире #23\". Содержит обычный текст без форматирования.",
+    "folderId": "folder-ideas",
+    "tags": [
+      "tag-idea",
+      "tag-meeting",
+      "tag-project"
+    ],
+    "color": "#8B5CF6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": true,
+    "isDeleted": false,
+    "createdAt": "2025-02-13T05:50:39.219Z",
+    "updatedAt": "2025-09-25T20:51:52.411Z",
+    "attachments": [
+      {
+        "id": "att-05f7c89e-3879-4e86-8835-0aa0703fb1b1",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-7c8a0383-7cb2-4d33-9b8f-c7f3be75e804",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 87
+  },
+  {
+    "id": "test-note-b7423362-77e7-4d6c-adb4-645e374acf9c",
+    "title": "План на неделю #24",
+    "content": "<h1>План на неделю #24</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": "folder-archive",
+    "tags": [
+      "tag-project",
+      "tag-meeting",
+      "tag-idea"
+    ],
+    "color": "#F59E0B",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": true,
+    "isDeleted": false,
+    "createdAt": "2025-02-12T06:47:17.568Z",
+    "updatedAt": "2025-08-21T12:33:06.328Z",
+    "attachments": [],
+    "size": 148
+  },
+  {
+    "id": "test-note-3e9e462a-194f-4ad2-8251-14c956de301f",
+    "title": "Ежедневные задачи #25",
+    "content": "Коротко: Ежедневные задачи #25",
+    "folderId": "folder-ideas",
+    "tags": [
+      "tag-reference"
+    ],
+    "color": "#3B82F6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-11-28T02:17:07.634Z",
+    "updatedAt": "2025-12-25T17:20:05.951Z",
+    "attachments": [],
+    "size": 30
+  },
+  {
+    "id": "test-note-5cea8cec-2fab-47b1-97cb-b68432b3cf8b",
+    "title": "Советы по продуктивности #26",
+    "content": "Это простая заметка \"Советы по продуктивности #26\". Содержит обычный текст без форматирования.",
+    "folderId": "folder-archive",
+    "tags": [
+      "tag-idea",
+      "tag-important"
+    ],
+    "color": "#8B5CF6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-09-12T00:44:47.856Z",
+    "updatedAt": "2025-10-30T09:37:08.131Z",
+    "attachments": [
+      {
+        "id": "att-41233cc9-d564-4c1f-9446-c515dd3a3f50",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-022e0703-e36c-42f4-a6d5-a95eab76caa4",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 94
+  },
+  {
+    "id": "test-note-fd2e4110-2658-448d-9a39-a89435c449b6",
+    "title": "Цели на год #27",
+    "content": "Заметка \"Цели на год #27\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-work",
+    "tags": [
+      "tag-project",
+      "tag-important",
+      "tag-todo"
+    ],
+    "color": "#F59E0B",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-05-31T06:34:48.685Z",
+    "updatedAt": "2025-10-10T19:40:02.977Z",
+    "attachments": [],
+    "size": 1189
+  },
+  {
+    "id": "test-note-1f5a40ef-0134-4099-9c53-f26676f49f02",
+    "title": "Ремонт в квартире #28",
+    "content": "Заметка \"Ремонт в квартире #28\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": null,
+    "tags": [
+      "tag-idea"
+    ],
+    "color": "#F59E0B",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-06-12T13:06:15.448Z",
+    "updatedAt": "2025-08-18T00:02:28.660Z",
+    "attachments": [
+      {
+        "id": "att-664ba133-1019-4901-92c6-f06ff14402e1",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-dd2ff1bf-3493-4d27-9799-42ff1399d6cb",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 1195
+  },
+  {
+    "id": "test-note-7d24042b-20f2-4ea9-8842-be1bb8b9a253",
+    "title": "Список покупок #29",
+    "content": "Это простая заметка \"Список покупок #29\". Содержит обычный текст без форматирования.",
+    "folderId": "folder-archive",
+    "tags": [
+      "tag-meeting",
+      "tag-idea",
+      "tag-important"
+    ],
+    "color": "#EF4444",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-12-17T05:04:11.679Z",
+    "updatedAt": "2025-12-17T13:47:53.568Z",
+    "attachments": [
+      {
+        "id": "att-b56d5dce-f478-4dcf-b994-68d11702df4a",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-1aa172c8-a3e3-473b-837f-2fa8ddc9ca80",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 84
+  },
+  {
+    "id": "test-note-17ec1d50-7a7e-43f7-97ad-f5559c16bfaf",
+    "title": "Ремонт в квартире #30",
+    "content": "Заметка \"Ремонт в квартире #30\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-ideas",
+    "tags": [
+      "tag-project",
+      "tag-reference"
+    ],
+    "color": "#3B82F6",
+    "coverImage": "",
+    "isPinned": true,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-09-03T04:26:59.146Z",
+    "updatedAt": "2025-10-18T15:29:31.300Z",
+    "attachments": [],
+    "size": 1195
+  },
+  {
+    "id": "test-note-10df9856-d264-4dab-9130-2a89d49f98b2",
+    "title": "Обучение новому навыку #31",
+    "content": "Это простая заметка \"Обучение новому навыку #31\". Содержит обычный текст без форматирования.",
+    "folderId": "folder-ideas",
+    "tags": [],
+    "color": "#3B82F6",
+    "coverImage": "",
+    "isPinned": true,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-10-19T04:43:20.551Z",
+    "updatedAt": "2025-10-24T18:39:43.004Z",
+    "attachments": [],
+    "size": 92
+  },
+  {
+    "id": "test-note-9b9df1d9-3445-46bf-825f-65a3ba23900a",
+    "title": "Список покупок #32",
+    "content": "Заметка \"Список покупок #32\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-personal",
+    "tags": [
+      "tag-reference",
+      "tag-idea",
+      "tag-todo"
+    ],
+    "color": "#10B981",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-09-04T20:39:08.127Z",
+    "updatedAt": "2025-12-07T21:03:06.626Z",
+    "attachments": [],
+    "size": 1192
+  },
+  {
+    "id": "test-note-bdaadf29-c032-406f-8ace-72dcaa62b72d",
+    "title": "Размышления о жизни #33",
+    "content": "Это простая заметка \"Размышления о жизни #33\". Содержит обычный текст без форматирования.",
+    "folderId": "folder-work",
+    "tags": [
+      "tag-important",
+      "tag-idea",
+      "tag-todo"
+    ],
+    "color": "#F59E0B",
+    "coverImage": "",
+    "isPinned": true,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-08-27T18:06:11.280Z",
+    "updatedAt": "2025-10-02T20:16:15.641Z",
+    "attachments": [],
+    "size": 89
+  },
+  {
+    "id": "test-note-5a6c5619-3548-48df-9636-874a459d9067",
+    "title": "Цели на год #34",
+    "content": "Заметка \"Цели на год #34\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-ideas",
+    "tags": [
+      "tag-idea"
+    ],
+    "color": "",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-08-10T01:53:29.403Z",
+    "updatedAt": "2025-11-02T01:22:37.538Z",
+    "attachments": [
+      {
+        "id": "att-7c2098a1-44af-448d-ace2-0c8aa5f9a79d",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-7d457f7b-7a75-42dc-a925-6eed78f2edfb",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 1189
+  },
+  {
+    "id": "test-note-836a0669-85a1-4445-bddf-67c96cc01795",
+    "title": "Заметки по книге #35",
+    "content": "Заметка \"Заметки по книге #35\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-archive",
+    "tags": [
+      "tag-important",
+      "tag-todo"
+    ],
+    "color": "#3B82F6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-03-28T17:14:27.952Z",
+    "updatedAt": "2025-09-18T02:17:23.921Z",
+    "attachments": [],
+    "size": 1194
+  },
+  {
+    "id": "test-note-8d3a72e0-4ade-4f5d-8d4d-b89775bfd0c4",
+    "title": "Путешествие мечты #36",
+    "content": "Заметка \"Путешествие мечты #36\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-work",
+    "tags": [
+      "tag-reference",
+      "tag-todo"
+    ],
+    "color": "#EF4444",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-03-06T01:45:35.233Z",
+    "updatedAt": "2025-08-17T06:06:41.359Z",
+    "attachments": [
+      {
+        "id": "att-98d7e9a2-ddae-4ca2-8828-dac5fa447296",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-fec027ae-416e-4d94-8908-c6ca16f4ff5c",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 1195
+  },
+  {
+    "id": "test-note-85126865-0b36-4df0-87c9-b613b0307a23",
+    "title": "Цели на год #37",
+    "content": "# Цели на год #37\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": null,
+    "tags": [
+      "tag-project"
+    ],
+    "color": "#3B82F6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-12-01T19:17:23.548Z",
+    "updatedAt": "2025-12-08T13:35:19.487Z",
+    "attachments": [],
+    "size": 149
+  },
+  {
+    "id": "test-note-8a987e44-bdbe-4380-a0d3-52beca450d41",
+    "title": "Встреча с командой #38",
+    "content": "Это простая заметка \"Встреча с командой #38\". Содержит обычный текст без форматирования.",
+    "folderId": null,
+    "tags": [],
+    "color": "#EF4444",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-01-14T14:10:01.256Z",
+    "updatedAt": "2025-08-14T16:09:38.424Z",
+    "attachments": [],
+    "size": 88
+  },
+  {
+    "id": "test-note-4482e5de-d839-47f5-b338-9d40ae6a1108",
+    "title": "Исследование технологии #39",
+    "content": "Заметка \"Исследование технологии #39\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-work",
+    "tags": [
+      "tag-idea",
+      "tag-todo",
+      "tag-project"
+    ],
+    "color": "",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-11-26T23:04:34.288Z",
+    "updatedAt": "2025-12-14T23:39:43.699Z",
+    "attachments": [],
+    "size": 1201
+  },
+  {
+    "id": "test-note-c27c7e5d-bd5c-44ed-abd2-679a82c7c46c",
+    "title": "Заметки по книге #40",
+    "content": "<h1>Заметки по книге #40</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": "folder-work",
+    "tags": [
+      "tag-idea",
+      "tag-reference"
+    ],
+    "color": "#10B981",
+    "coverImage": "",
+    "isPinned": true,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-07-27T07:50:34.820Z",
+    "updatedAt": "2025-12-03T04:24:47.347Z",
+    "attachments": [],
+    "size": 150
+  },
+  {
+    "id": "test-note-eb350866-5a56-492b-8d86-6af6224dbf40",
+    "title": "Советы по продуктивности #41",
+    "content": "Коротко: Советы по продуктивности #41",
+    "folderId": "folder-personal",
+    "tags": [],
+    "color": "#F59E0B",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-01-18T10:34:16.120Z",
+    "updatedAt": "2025-06-10T08:25:10.473Z",
+    "attachments": [],
+    "size": 37
+  },
+  {
+    "id": "test-note-730f6746-cc2f-40b1-bc65-3c33585212a1",
+    "title": "Идеи для проекта #42",
+    "content": "# Идеи для проекта #42\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": "folder-personal",
+    "tags": [
+      "tag-important",
+      "tag-project"
+    ],
+    "color": "#3B82F6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-10-24T08:51:09.677Z",
+    "updatedAt": "2025-12-27T03:46:12.485Z",
+    "attachments": [],
+    "size": 154
+  },
+  {
+    "id": "test-note-7a3e3003-8826-4b5e-8388-9c55ccd36cd6",
+    "title": "План на неделю #43",
+    "content": "Это простая заметка \"План на неделю #43\". Содержит обычный текст без форматирования.",
+    "folderId": "folder-personal",
+    "tags": [
+      "tag-project",
+      "tag-idea",
+      "tag-important"
+    ],
+    "color": "#EF4444",
+    "coverImage": "",
+    "isPinned": true,
+    "isArchived": true,
+    "isDeleted": false,
+    "createdAt": "2025-09-15T05:53:44.554Z",
+    "updatedAt": "2025-10-09T14:19:30.132Z",
+    "attachments": [
+      {
+        "id": "att-7f5cc540-474f-4f4f-aa9a-fb70cb4a9d49",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-be21a1be-0be9-4666-8f5b-4d754c950ece",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 84
+  },
+  {
+    "id": "test-note-246f2bce-3913-465f-bef1-8eececa714e9",
+    "title": "Ежедневные задачи #44",
+    "content": "Коротко: Ежедневные задачи #44",
+    "folderId": "folder-ideas",
+    "tags": [],
+    "color": "#10B981",
+    "coverImage": "",
+    "isPinned": true,
+    "isArchived": true,
+    "isDeleted": false,
+    "createdAt": "2025-09-18T09:41:51.529Z",
+    "updatedAt": "2025-10-09T10:50:17.570Z",
+    "attachments": [],
+    "size": 30
+  },
+  {
+    "id": "test-note-c97ed84b-aa8f-4239-8daa-06985b7f15ba",
+    "title": "Путешествие мечты #45",
+    "content": "# Путешествие мечты #45\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": "folder-archive",
+    "tags": [
+      "tag-important",
+      "tag-todo",
+      "tag-project"
+    ],
+    "color": "#3B82F6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": true,
+    "isDeleted": false,
+    "createdAt": "2025-12-08T00:41:49.017Z",
+    "updatedAt": "2026-01-04T00:22:20.772Z",
+    "attachments": [],
+    "size": 155
+  },
+  {
+    "id": "test-note-3c6c368f-12d7-437c-bca1-72f8b23bea78",
+    "title": "Советы по продуктивности #46",
+    "content": "Заметка \"Советы по продуктивности #46\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-ideas",
+    "tags": [
+      "tag-important"
+    ],
+    "color": "#10B981",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-08-17T05:04:08.228Z",
+    "updatedAt": "2025-11-20T14:37:56.102Z",
+    "attachments": [
+      {
+        "id": "att-c9553778-fd6c-40d8-b009-7c299103b6ec",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-29edc853-c313-46fc-8848-c068a5c88950",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 1202
+  },
+  {
+    "id": "test-note-18ccfc29-1033-4c93-8319-6740f6ce156e",
+    "title": "План на неделю #47",
+    "content": "Заметка \"План на неделю #47\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-work",
+    "tags": [
+      "tag-important",
+      "tag-todo"
+    ],
+    "color": "",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-03-21T23:10:44.868Z",
+    "updatedAt": "2025-06-12T05:38:55.810Z",
+    "attachments": [],
+    "size": 1192
+  },
+  {
+    "id": "test-note-b1638038-7f7f-406c-b5f2-db4e81050ce4",
+    "title": "План на неделю #48",
+    "content": "<h1>План на неделю #48</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": "folder-work",
+    "tags": [
+      "tag-reference",
+      "tag-project"
+    ],
+    "color": "#F59E0B",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-02-28T11:46:12.246Z",
+    "updatedAt": "2025-09-16T18:22:37.522Z",
+    "attachments": [],
+    "size": 148
+  },
+  {
+    "id": "test-note-6c6b3715-967a-4cb4-9933-49b3b1ee132b",
+    "title": "Ежедневные задачи #49",
+    "content": "# Ежедневные задачи #49\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": "folder-ideas",
+    "tags": [
+      "tag-important"
+    ],
+    "color": "",
+    "coverImage": "https://picsum.photos/seed/test-note-6c6b3715-967a-4cb4-9933-49b3b1ee132b/800/400",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": true,
+    "createdAt": "2025-10-18T15:09:03.560Z",
+    "updatedAt": "2025-11-11T15:32:58.958Z",
+    "attachments": [
+      {
+        "id": "att-6f3ff402-3f5c-444f-af4a-87773e28986b",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-5a546349-ac8f-4498-a07e-ec50ae23af21",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 155
+  },
+  {
+    "id": "test-note-36e807d4-df63-4b89-a391-284c7ef61278",
+    "title": "Исследование технологии #50",
+    "content": "Коротко: Исследование технологии #50",
+    "folderId": null,
+    "tags": [],
+    "color": "#8B5CF6",
+    "coverImage": "https://picsum.photos/seed/test-note-36e807d4-df63-4b89-a391-284c7ef61278/800/400",
+    "isPinned": true,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-11-10T01:23:40.904Z",
+    "updatedAt": "2025-11-29T20:25:03.061Z",
+    "attachments": [],
+    "size": 36
+  },
+  {
+    "id": "test-note-14751323-0677-4756-ada8-afdf8d25a9f5",
+    "title": "Ремонт в квартире #51",
+    "content": "<h1>Ремонт в квартире #51</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": "folder-work",
+    "tags": [
+      "tag-important"
+    ],
+    "color": "",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": true,
+    "createdAt": "2025-12-10T11:27:19.765Z",
+    "updatedAt": "2025-12-24T09:45:48.719Z",
+    "attachments": [],
+    "size": 151
+  },
+  {
+    "id": "test-note-438800ef-d546-4d7a-b52e-1ce357ea45eb",
+    "title": "Идеи для проекта #52",
+    "content": "<h1>Идеи для проекта #52</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": "folder-work",
+    "tags": [
+      "tag-idea",
+      "tag-reference"
+    ],
+    "color": "#F59E0B",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-04-22T02:45:06.367Z",
+    "updatedAt": "2025-06-16T01:35:27.197Z",
+    "attachments": [],
+    "size": 150
+  },
+  {
+    "id": "test-note-448b0070-bb55-424c-af5c-20ed67c29e2d",
+    "title": "Исследование технологии #53",
+    "content": "Это простая заметка \"Исследование технологии #53\". Содержит обычный текст без форматирования.",
+    "folderId": "folder-personal",
+    "tags": [
+      "tag-meeting"
+    ],
+    "color": "#10B981",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-10-10T04:20:08.836Z",
+    "updatedAt": "2025-12-23T06:27:11.140Z",
+    "attachments": [],
+    "size": 93
+  },
+  {
+    "id": "test-note-6cb0a7fe-b6cf-4bd3-a73f-4ed234aef249",
+    "title": "Советы по продуктивности #54",
+    "content": "Это простая заметка \"Советы по продуктивности #54\". Содержит обычный текст без форматирования.",
+    "folderId": "folder-work",
+    "tags": [
+      "tag-important",
+      "tag-todo",
+      "tag-reference"
+    ],
+    "color": "#10B981",
+    "coverImage": "",
+    "isPinned": true,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-12-13T12:56:34.784Z",
+    "updatedAt": "2025-12-29T13:20:28.107Z",
+    "attachments": [],
+    "size": 94
+  },
+  {
+    "id": "test-note-a71080c9-303c-4192-b477-d3231d3f1e63",
+    "title": "План на неделю #55",
+    "content": "Коротко: План на неделю #55",
+    "folderId": "folder-personal",
+    "tags": [],
+    "color": "",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-08-09T01:54:51.846Z",
+    "updatedAt": "2025-10-15T19:53:26.022Z",
+    "attachments": [],
+    "size": 27
+  },
+  {
+    "id": "test-note-b20e433c-1abd-4423-aa2a-64963052675b",
+    "title": "План на неделю #56",
+    "content": "Заметка \"План на неделю #56\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-archive",
+    "tags": [],
+    "color": "#EF4444",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-10-05T04:15:46.721Z",
+    "updatedAt": "2026-01-06T08:43:40.410Z",
+    "attachments": [
+      {
+        "id": "att-fb16f31c-9a48-4c0c-88ea-1d047f582e4c",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-572ae8c8-6175-4619-af70-d268cd404fff",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 1192
+  },
+  {
+    "id": "test-note-0d9e03ef-3033-410a-8ba7-061c51c0a044",
+    "title": "Список покупок #57",
+    "content": "# Список покупок #57\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": "folder-personal",
+    "tags": [
+      "tag-todo",
+      "tag-meeting",
+      "tag-important"
+    ],
+    "color": "#F59E0B",
+    "coverImage": "https://picsum.photos/seed/test-note-0d9e03ef-3033-410a-8ba7-061c51c0a044/800/400",
+    "isPinned": true,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-04-15T12:07:43.564Z",
+    "updatedAt": "2025-10-04T05:20:10.272Z",
+    "attachments": [],
+    "size": 152
+  },
+  {
+    "id": "test-note-11a5fa80-ff3c-4a47-8849-d9d74ccd9182",
+    "title": "Обучение новому навыку #58",
+    "content": "Заметка \"Обучение новому навыку #58\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-archive",
+    "tags": [],
+    "color": "#8B5CF6",
+    "coverImage": "https://picsum.photos/seed/test-note-11a5fa80-ff3c-4a47-8849-d9d74ccd9182/800/400",
+    "isPinned": true,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-07-24T00:57:11.782Z",
+    "updatedAt": "2025-12-18T17:53:44.972Z",
+    "attachments": [],
+    "size": 1200
+  },
+  {
+    "id": "test-note-ba93dac3-9cc6-4ee4-b56a-98050f5506dc",
+    "title": "Встреча с командой #59",
+    "content": "# Встреча с командой #59\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": "folder-personal",
+    "tags": [
+      "tag-important"
+    ],
+    "color": "#10B981",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-08-14T12:04:40.613Z",
+    "updatedAt": "2025-09-01T11:49:26.058Z",
+    "attachments": [],
+    "size": 156
+  },
+  {
+    "id": "test-note-de791f4e-3973-4037-95d0-ef2efdfc72bf",
+    "title": "Обучение новому навыку #60",
+    "content": "<h1>Обучение новому навыку #60</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": null,
+    "tags": [
+      "tag-important",
+      "tag-idea"
+    ],
+    "color": "#EF4444",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": true,
+    "createdAt": "2025-09-27T06:54:32.751Z",
+    "updatedAt": "2025-10-15T17:37:06.344Z",
+    "attachments": [
+      {
+        "id": "att-c90c584a-2933-402e-87e9-77a02001c503",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-1cae4235-aed9-421b-9b84-3acd9aa7f063",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 156
+  },
+  {
+    "id": "test-note-1bbbb5ce-faeb-4756-9c9a-2effbb7ccbce",
+    "title": "Идеи для проекта #61",
+    "content": "<h1>Идеи для проекта #61</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": "folder-work",
+    "tags": [],
+    "color": "#EF4444",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-10-08T10:42:50.569Z",
+    "updatedAt": "2025-10-16T04:02:41.594Z",
+    "attachments": [
+      {
+        "id": "att-820410fc-6068-40ea-acf7-5dc0e3be34d4",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-c5332891-15d8-4b63-9a15-b91fc2947616",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 150
+  },
+  {
+    "id": "test-note-b730d12f-cdec-4e87-93ce-571a1e33de2f",
+    "title": "Путешествие мечты #62",
+    "content": "<h1>Путешествие мечты #62</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": "folder-ideas",
+    "tags": [],
+    "color": "#10B981",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-06-22T11:05:11.287Z",
+    "updatedAt": "2025-09-27T11:30:31.643Z",
+    "attachments": [
+      {
+        "id": "att-770ee59c-9061-4b86-87d3-2b08387ca3d0",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-3e13c126-17d5-4db8-9a6a-3b5c3581bbb2",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 151
+  },
+  {
+    "id": "test-note-afaacd19-ebba-420c-b159-1a3140bdd43c",
+    "title": "Размышления о жизни #63",
+    "content": "Заметка \"Размышления о жизни #63\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-archive",
+    "tags": [
+      "tag-todo",
+      "tag-meeting",
+      "tag-important"
+    ],
+    "color": "",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-07-20T17:03:25.268Z",
+    "updatedAt": "2025-09-17T01:17:37.951Z",
+    "attachments": [],
+    "size": 1197
+  },
+  {
+    "id": "test-note-1c283367-d476-4999-b4b1-ec75ab3265fe",
+    "title": "Цели на год #64",
+    "content": "<h1>Цели на год #64</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": "folder-work",
+    "tags": [
+      "tag-important",
+      "tag-todo"
+    ],
+    "color": "",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-10-07T04:19:25.489Z",
+    "updatedAt": "2025-11-30T12:22:06.996Z",
+    "attachments": [],
+    "size": 145
+  },
+  {
+    "id": "test-note-93fb0e79-47d1-4204-9cfc-ac12acbc89e4",
+    "title": "Заметки по книге #65",
+    "content": "# Заметки по книге #65\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": "folder-work",
+    "tags": [
+      "tag-todo"
+    ],
+    "color": "#F59E0B",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": true,
+    "createdAt": "2025-05-01T19:53:13.942Z",
+    "updatedAt": "2025-07-01T21:44:53.028Z",
+    "attachments": [],
+    "size": 154
+  },
+  {
+    "id": "test-note-adcdfd4f-c12d-4fcb-ab6f-cdf3c0a0f26b",
+    "title": "Ремонт в квартире #66",
+    "content": "Заметка \"Ремонт в квартире #66\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-archive",
+    "tags": [
+      "tag-todo",
+      "tag-idea"
+    ],
+    "color": "#3B82F6",
+    "coverImage": "https://picsum.photos/seed/test-note-adcdfd4f-c12d-4fcb-ab6f-cdf3c0a0f26b/800/400",
+    "isPinned": true,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-09-29T19:00:04.115Z",
+    "updatedAt": "2025-09-30T19:08:22.600Z",
+    "attachments": [],
+    "size": 1195
+  },
+  {
+    "id": "test-note-bf5e3dd8-ee97-4a41-b98f-cc4fbabfee8c",
+    "title": "Список покупок #67",
+    "content": "# Список покупок #67\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": null,
+    "tags": [
+      "tag-important"
+    ],
+    "color": "#3B82F6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-04-16T03:01:22.510Z",
+    "updatedAt": "2025-10-11T03:53:39.249Z",
+    "attachments": [
+      {
+        "id": "att-988fe011-ae83-4438-ac20-7c4e4dac948c",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-4d0724b6-088e-4702-82ec-21f050ab61df",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 152
+  },
+  {
+    "id": "test-note-59f6481c-278e-4d55-a09b-a8e0161f3429",
+    "title": "Встреча с командой #68",
+    "content": "<h1>Встреча с командой #68</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": "folder-work",
+    "tags": [
+      "tag-idea"
+    ],
+    "color": "",
+    "coverImage": "",
+    "isPinned": true,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-05-31T13:55:39.485Z",
+    "updatedAt": "2025-06-18T05:04:40.244Z",
+    "attachments": [
+      {
+        "id": "att-363f192a-e449-49a6-9640-9cccd0fd15e1",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-7647e4da-b32f-48bc-9104-0b60824ca5b6",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 152
+  },
+  {
+    "id": "test-note-8b63a1fe-7a25-43d2-8d92-5b7ebef934ae",
+    "title": "Цели на год #69",
+    "content": "Это простая заметка \"Цели на год #69\". Содержит обычный текст без форматирования.",
+    "folderId": "folder-work",
+    "tags": [],
+    "color": "",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-11-25T01:38:04.166Z",
+    "updatedAt": "2025-12-07T14:23:50.587Z",
+    "attachments": [],
+    "size": 81
+  },
+  {
+    "id": "test-note-2debed9a-1237-4464-8fd6-ae2fd554beaa",
+    "title": "Идеи для проекта #70",
+    "content": "<h1>Идеи для проекта #70</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": "folder-personal",
+    "tags": [
+      "tag-idea"
+    ],
+    "color": "",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-01-17T19:21:38.405Z",
+    "updatedAt": "2025-05-29T15:29:28.225Z",
+    "attachments": [],
+    "size": 150
+  },
+  {
+    "id": "test-note-69e91146-9763-4afa-9e46-bc7f5c429c57",
+    "title": "Исследование технологии #71",
+    "content": "<h1>Исследование технологии #71</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": "folder-work",
+    "tags": [
+      "tag-reference",
+      "tag-todo"
+    ],
+    "color": "",
+    "coverImage": "https://picsum.photos/seed/test-note-69e91146-9763-4afa-9e46-bc7f5c429c57/800/400",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-10-03T22:38:36.939Z",
+    "updatedAt": "2025-12-03T11:19:35.943Z",
+    "attachments": [],
+    "size": 157
+  },
+  {
+    "id": "test-note-0df743ca-792f-47ed-ae9b-c462865d8506",
+    "title": "Ежедневные задачи #72",
+    "content": "Заметка \"Ежедневные задачи #72\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-personal",
+    "tags": [
+      "tag-idea",
+      "tag-meeting",
+      "tag-important"
+    ],
+    "color": "#EF4444",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-03-21T19:42:35.171Z",
+    "updatedAt": "2025-11-06T16:23:05.388Z",
+    "attachments": [],
+    "size": 1195
+  },
+  {
+    "id": "test-note-77c0726c-832f-486f-8b06-cbca112b80e8",
+    "title": "Размышления о жизни #73",
+    "content": "Заметка \"Размышления о жизни #73\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-ideas",
+    "tags": [
+      "tag-reference"
+    ],
+    "color": "#10B981",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-10-12T10:00:54.618Z",
+    "updatedAt": "2025-12-11T18:13:52.502Z",
+    "attachments": [],
+    "size": 1197
+  },
+  {
+    "id": "test-note-f6955a31-771f-4b62-b66f-f7e162391e75",
+    "title": "Ежедневные задачи #74",
+    "content": "Коротко: Ежедневные задачи #74",
+    "folderId": null,
+    "tags": [
+      "tag-idea",
+      "tag-important",
+      "tag-project"
+    ],
+    "color": "#F59E0B",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-01-29T05:04:49.314Z",
+    "updatedAt": "2025-02-15T03:18:45.163Z",
+    "attachments": [
+      {
+        "id": "att-2889b86d-066e-40a0-9e32-5cad627d747d",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-b3620b8a-46e7-43ad-8cb9-bcdc9ac18312",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 30
+  },
+  {
+    "id": "test-note-1f9750d6-dcee-4a17-8823-0a44a19c9b0d",
+    "title": "Список покупок #75",
+    "content": "Это простая заметка \"Список покупок #75\". Содержит обычный текст без форматирования.",
+    "folderId": "folder-ideas",
+    "tags": [
+      "tag-meeting",
+      "tag-important"
+    ],
+    "color": "#EF4444",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-11-13T04:14:31.547Z",
+    "updatedAt": "2025-11-19T10:42:51.484Z",
+    "attachments": [],
+    "size": 84
+  },
+  {
+    "id": "test-note-8dee884b-9a6a-4ac8-97e2-87fd145a7f89",
+    "title": "Путешествие мечты #76",
+    "content": "Заметка \"Путешествие мечты #76\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-archive",
+    "tags": [],
+    "color": "#3B82F6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-04-04T13:31:23.245Z",
+    "updatedAt": "2025-08-15T13:51:07.200Z",
+    "attachments": [
+      {
+        "id": "att-ee140a22-f0ea-40e0-8af3-6d2bf586f122",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-a7e894c9-bc2a-46e9-8f64-77dff6e5b843",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 1195
+  },
+  {
+    "id": "test-note-8f7ad9ac-a3f1-45f5-9566-d9b75d84f794",
+    "title": "План на неделю #77",
+    "content": "# План на неделю #77\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": "folder-personal",
+    "tags": [
+      "tag-important"
+    ],
+    "color": "#F59E0B",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-07-31T10:56:26.349Z",
+    "updatedAt": "2025-09-18T20:07:55.308Z",
+    "attachments": [],
+    "size": 152
+  },
+  {
+    "id": "test-note-7f15ad83-13ec-4983-966b-a169e508140d",
+    "title": "Идеи для проекта #78",
+    "content": "Заметка \"Идеи для проекта #78\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-personal",
+    "tags": [
+      "tag-reference"
+    ],
+    "color": "#EF4444",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": true,
+    "createdAt": "2025-10-22T20:17:37.294Z",
+    "updatedAt": "2025-11-16T17:50:27.106Z",
+    "attachments": [],
+    "size": 1194
+  },
+  {
+    "id": "test-note-bb08a0f9-4b4b-4852-86f2-a0892d614b36",
+    "title": "Рецепт приготовления #79",
+    "content": "Коротко: Рецепт приготовления #79",
+    "folderId": null,
+    "tags": [],
+    "color": "#EF4444",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-11-18T08:39:20.063Z",
+    "updatedAt": "2025-12-12T00:54:16.479Z",
+    "attachments": [
+      {
+        "id": "att-8d8af992-cc9a-435a-afb4-f47f0d6b30e1",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-f8223e8a-162c-4c3d-8f59-d19a5142c028",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 33
+  },
+  {
+    "id": "test-note-f7b49337-e346-4cae-af28-8f4372d7779b",
+    "title": "Заметки по книге #80",
+    "content": "<h1>Заметки по книге #80</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": "folder-personal",
+    "tags": [
+      "tag-project",
+      "tag-important",
+      "tag-todo"
+    ],
+    "color": "",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-12-31T16:06:40.330Z",
+    "updatedAt": "2026-01-06T10:42:55.810Z",
+    "attachments": [],
+    "size": 150
+  },
+  {
+    "id": "test-note-fff9d3af-8151-47f5-b23d-59bca3308b87",
+    "title": "Встреча с командой #81",
+    "content": "<h1>Встреча с командой #81</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": "folder-ideas",
+    "tags": [
+      "tag-project",
+      "tag-important"
+    ],
+    "color": "#EF4444",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-06-08T07:54:24.140Z",
+    "updatedAt": "2025-07-14T02:27:54.768Z",
+    "attachments": [
+      {
+        "id": "att-cf0ef304-2a9e-4202-b649-f4a5bc32d6c0",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-fe24267a-fdb6-4aba-872f-5b8112ad66fa",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 152
+  },
+  {
+    "id": "test-note-85bcfc03-b3bc-4de1-8c82-0aa9430e9c1e",
+    "title": "Финансовый план #82",
+    "content": "# Финансовый план #82\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": "folder-personal",
+    "tags": [
+      "tag-project"
+    ],
+    "color": "#EF4444",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-05-20T08:46:54.414Z",
+    "updatedAt": "2025-06-28T16:54:00.080Z",
+    "attachments": [
+      {
+        "id": "att-82de3b90-03ea-4da5-85f4-c8f9e602c46f",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-5f44e403-654f-4b77-acdf-0fdedc35b0f8",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 153
+  },
+  {
+    "id": "test-note-84628b02-751e-40fc-8d16-d4b1a3fee9b2",
+    "title": "Рецепт приготовления #83",
+    "content": "Коротко: Рецепт приготовления #83",
+    "folderId": "folder-work",
+    "tags": [
+      "tag-project",
+      "tag-idea"
+    ],
+    "color": "#EF4444",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": true,
+    "isDeleted": true,
+    "createdAt": "2025-08-23T07:41:47.051Z",
+    "updatedAt": "2025-08-23T20:38:47.956Z",
+    "attachments": [],
+    "size": 33
+  },
+  {
+    "id": "test-note-fe572e34-f89c-4d42-a65a-f4b36b333052",
+    "title": "Ремонт в квартире #84",
+    "content": "<h1>Ремонт в квартире #84</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": "folder-ideas",
+    "tags": [],
+    "color": "#8B5CF6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-01-12T03:53:11.755Z",
+    "updatedAt": "2025-06-04T20:14:11.398Z",
+    "attachments": [
+      {
+        "id": "att-b020510a-0c64-4357-a39d-cc87626a7688",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-3ec25654-1716-456f-a342-9a54edf16fe9",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 151
+  },
+  {
+    "id": "test-note-d87ae360-c8ee-42c8-af23-fe8cfa24e371",
+    "title": "Советы по продуктивности #85",
+    "content": "<h1>Советы по продуктивности #85</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": null,
+    "tags": [
+      "tag-reference",
+      "tag-idea"
+    ],
+    "color": "",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": true,
+    "createdAt": "2025-10-23T18:05:59.691Z",
+    "updatedAt": "2025-11-06T20:37:57.695Z",
+    "attachments": [],
+    "size": 158
+  },
+  {
+    "id": "test-note-8ec7322a-b5b6-488a-8016-a10cc4daa23e",
+    "title": "Советы по продуктивности #86",
+    "content": "Коротко: Советы по продуктивности #86",
+    "folderId": "folder-archive",
+    "tags": [],
+    "color": "#3B82F6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-06-10T04:02:50.101Z",
+    "updatedAt": "2025-11-04T01:26:23.028Z",
+    "attachments": [],
+    "size": 37
+  },
+  {
+    "id": "test-note-d658f7e6-c2a9-4fe9-8b42-9be5a96785b4",
+    "title": "Рецепт приготовления #87",
+    "content": "<h1>Рецепт приготовления #87</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": null,
+    "tags": [
+      "tag-project",
+      "tag-meeting"
+    ],
+    "color": "#10B981",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-12-30T21:15:16.179Z",
+    "updatedAt": "2026-01-01T05:19:28.161Z",
+    "attachments": [],
+    "size": 154
+  },
+  {
+    "id": "test-note-cfa9f2a8-cb30-4a67-951f-55746a095e5a",
+    "title": "Путешествие мечты #88",
+    "content": "# Путешествие мечты #88\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": "folder-personal",
+    "tags": [],
+    "color": "",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": true,
+    "createdAt": "2025-08-12T09:43:49.939Z",
+    "updatedAt": "2025-11-30T12:15:23.029Z",
+    "attachments": [
+      {
+        "id": "att-094f74b3-b7fe-4647-b253-0f3e7f4a8d29",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-f33fed5e-68bd-46f4-90be-f5ddaeba0357",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 155
+  },
+  {
+    "id": "test-note-ad4139b4-f0b9-4232-8e38-b31fec9b5191",
+    "title": "Заметки по книге #89",
+    "content": "Это простая заметка \"Заметки по книге #89\". Содержит обычный текст без форматирования.",
+    "folderId": null,
+    "tags": [
+      "tag-project"
+    ],
+    "color": "",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-12-04T22:16:30.139Z",
+    "updatedAt": "2025-12-06T04:37:18.491Z",
+    "attachments": [
+      {
+        "id": "att-ea2b12aa-5873-49bb-a0b0-931f628fb8db",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-37efb6a5-7178-4154-ba27-86c1f21b5de2",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 86
+  },
+  {
+    "id": "test-note-07c13d26-35f8-41ea-a314-fec801ac980b",
+    "title": "Размышления о жизни #90",
+    "content": "Коротко: Размышления о жизни #90",
+    "folderId": "folder-personal",
+    "tags": [
+      "tag-idea",
+      "tag-meeting",
+      "tag-project"
+    ],
+    "color": "#8B5CF6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": true,
+    "isDeleted": false,
+    "createdAt": "2025-01-12T10:19:45.718Z",
+    "updatedAt": "2025-11-08T08:16:25.483Z",
+    "attachments": [
+      {
+        "id": "att-8e9ded68-c8b0-4786-b869-b99c4a7b4e6d",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-b348f566-6913-4d85-9158-2579d1bd82e6",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 32
+  },
+  {
+    "id": "test-note-51d36b31-cb62-4584-a746-8ff7400c1af2",
+    "title": "Ежедневные задачи #91",
+    "content": "<h1>Ежедневные задачи #91</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": null,
+    "tags": [
+      "tag-project",
+      "tag-important"
+    ],
+    "color": "#EF4444",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": true,
+    "isDeleted": false,
+    "createdAt": "2025-12-14T08:01:27.758Z",
+    "updatedAt": "2025-12-22T07:43:11.058Z",
+    "attachments": [],
+    "size": 151
+  },
+  {
+    "id": "test-note-2a93fd0c-4c03-4749-aa0b-474b93ec653f",
+    "title": "Советы по продуктивности #92",
+    "content": "# Советы по продуктивности #92\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": "folder-archive",
+    "tags": [],
+    "color": "",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-08-04T16:09:19.732Z",
+    "updatedAt": "2025-09-21T17:01:11.624Z",
+    "attachments": [
+      {
+        "id": "att-7066f8e0-cded-45bd-819c-00ac83a4a7a8",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-f0e9fcdd-5850-45f2-9ad6-7f9999cdc9cf",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 162
+  },
+  {
+    "id": "test-note-71061170-2270-40d5-acc3-aad7529e9401",
+    "title": "Обучение новому навыку #93",
+    "content": "Коротко: Обучение новому навыку #93",
+    "folderId": "folder-personal",
+    "tags": [
+      "tag-idea",
+      "tag-reference",
+      "tag-project"
+    ],
+    "color": "#EF4444",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": true,
+    "createdAt": "2025-05-31T23:54:10.994Z",
+    "updatedAt": "2025-09-27T07:26:52.259Z",
+    "attachments": [],
+    "size": 35
+  },
+  {
+    "id": "test-note-073593b6-592d-4603-823c-7df802ef66e5",
+    "title": "Размышления о жизни #94",
+    "content": "# Размышления о жизни #94\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": "folder-ideas",
+    "tags": [
+      "tag-project",
+      "tag-meeting"
+    ],
+    "color": "#8B5CF6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": true,
+    "createdAt": "2025-05-28T15:01:39.507Z",
+    "updatedAt": "2025-08-03T10:28:15.749Z",
+    "attachments": [
+      {
+        "id": "att-9b55eac4-9ed1-4fe7-89f1-44d179d66b4a",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-ab6765d1-9898-40f0-873c-1e463802fdd3",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 157
+  },
+  {
+    "id": "test-note-42eaf929-7b21-483b-a114-0675f3fba4cd",
+    "title": "Советы по продуктивности #95",
+    "content": "<h1>Советы по продуктивности #95</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": null,
+    "tags": [
+      "tag-important"
+    ],
+    "color": "#3B82F6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": true,
+    "isDeleted": false,
+    "createdAt": "2025-11-20T06:10:26.804Z",
+    "updatedAt": "2025-12-14T22:18:12.797Z",
+    "attachments": [],
+    "size": 158
+  },
+  {
+    "id": "test-note-7d4c3d78-0fe4-4d2d-beb0-30c16e94f6e9",
+    "title": "Идеи для проекта #96",
+    "content": "<h1>Идеи для проекта #96</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": "folder-work",
+    "tags": [
+      "tag-project",
+      "tag-idea"
+    ],
+    "color": "",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-06-11T06:14:55.181Z",
+    "updatedAt": "2025-10-29T00:30:44.940Z",
+    "attachments": [],
+    "size": 150
+  },
+  {
+    "id": "test-note-1b01d707-1dab-4237-bdf3-5c12688cf0b3",
+    "title": "Заметки по книге #97",
+    "content": "Это простая заметка \"Заметки по книге #97\". Содержит обычный текст без форматирования.",
+    "folderId": "folder-work",
+    "tags": [
+      "tag-todo",
+      "tag-project"
+    ],
+    "color": "#10B981",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-08-10T01:57:54.164Z",
+    "updatedAt": "2025-11-20T04:00:30.441Z",
+    "attachments": [
+      {
+        "id": "att-84be9459-a122-443d-8861-875a19115f73",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-c2a12709-f380-4c0f-a904-bc1ab53a067c",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 86
+  },
+  {
+    "id": "test-note-e3856067-6b72-4db1-addc-ec7901db92f7",
+    "title": "План на неделю #98",
+    "content": "# План на неделю #98\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": null,
+    "tags": [
+      "tag-project",
+      "tag-meeting"
+    ],
+    "color": "",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-10-23T13:21:59.057Z",
+    "updatedAt": "2025-11-24T00:53:15.518Z",
+    "attachments": [],
+    "size": 152
+  },
+  {
+    "id": "test-note-88640e19-c5d0-461f-b9c6-6d6edbfab210",
+    "title": "Идеи для проекта #99",
+    "content": "# Идеи для проекта #99\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": "folder-ideas",
+    "tags": [],
+    "color": "#F59E0B",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-07-08T16:21:43.014Z",
+    "updatedAt": "2025-11-05T07:31:59.477Z",
+    "attachments": [],
+    "size": 154
+  },
+  {
+    "id": "test-note-18099639-ffe4-4877-92f2-94c516ff8812",
+    "title": "Заметки по книге #100",
+    "content": "<h1>Заметки по книге #100</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": "folder-work",
+    "tags": [
+      "tag-project",
+      "tag-important",
+      "tag-meeting"
+    ],
+    "color": "#8B5CF6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-06-01T22:58:12.819Z",
+    "updatedAt": "2025-11-25T22:03:29.506Z",
+    "attachments": [],
+    "size": 151
+  },
+  {
+    "id": "test-note-6da889da-c233-48bb-bbaa-fa70677c77cf",
+    "title": "Обучение новому навыку #101",
+    "content": "Заметка \"Обучение новому навыку #101\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-ideas",
+    "tags": [
+      "tag-project",
+      "tag-reference"
+    ],
+    "color": "#10B981",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-03-31T14:33:47.714Z",
+    "updatedAt": "2025-06-12T09:39:37.733Z",
+    "attachments": [],
+    "size": 1201
+  },
+  {
+    "id": "test-note-b0c48418-b298-4867-9dbe-9385040148b2",
+    "title": "Советы по продуктивности #102",
+    "content": "Это простая заметка \"Советы по продуктивности #102\". Содержит обычный текст без форматирования.",
+    "folderId": "folder-archive",
+    "tags": [
+      "tag-meeting"
+    ],
+    "color": "#8B5CF6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-02-17T05:14:21.075Z",
+    "updatedAt": "2025-04-17T12:48:17.694Z",
+    "attachments": [],
+    "size": 95
+  },
+  {
+    "id": "test-note-748a2325-7c79-417a-bac5-f0d1077c12a8",
+    "title": "Финансовый план #103",
+    "content": "Заметка \"Финансовый план #103\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-archive",
+    "tags": [
+      "tag-idea",
+      "tag-reference",
+      "tag-todo"
+    ],
+    "color": "",
+    "coverImage": "",
+    "isPinned": true,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-11-18T11:05:25.324Z",
+    "updatedAt": "2026-01-01T17:47:31.695Z",
+    "attachments": [
+      {
+        "id": "att-4d6669b2-2bac-43c7-bd78-a75e65f484b2",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-f9307c11-8b4d-47a9-bb45-398c0287f354",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 1194
+  },
+  {
+    "id": "test-note-e22f0057-e3ed-4e93-8303-f46d56a25af8",
+    "title": "Путешествие мечты #104",
+    "content": "# Путешествие мечты #104\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": "folder-personal",
+    "tags": [],
+    "color": "#EF4444",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": true,
+    "isDeleted": true,
+    "createdAt": "2025-07-25T06:31:19.090Z",
+    "updatedAt": "2025-11-10T02:38:23.748Z",
+    "attachments": [],
+    "size": 156
+  },
+  {
+    "id": "test-note-3d6e8b5b-0bec-4384-8a18-840c76ef3d80",
+    "title": "Ежедневные задачи #105",
+    "content": "<h1>Ежедневные задачи #105</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": "folder-archive",
+    "tags": [
+      "tag-todo",
+      "tag-meeting",
+      "tag-important"
+    ],
+    "color": "#8B5CF6",
+    "coverImage": "",
+    "isPinned": true,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-11-03T17:44:02.321Z",
+    "updatedAt": "2025-11-04T05:06:10.820Z",
+    "attachments": [],
+    "size": 152
+  },
+  {
+    "id": "test-note-eafd5e04-d27c-41bb-80d5-3629bb3077ed",
+    "title": "Ежедневные задачи #106",
+    "content": "Это простая заметка \"Ежедневные задачи #106\". Содержит обычный текст без форматирования.",
+    "folderId": "folder-personal",
+    "tags": [
+      "tag-important"
+    ],
+    "color": "#F59E0B",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-11-05T15:57:15.703Z",
+    "updatedAt": "2025-11-24T18:03:48.678Z",
+    "attachments": [],
+    "size": 88
+  },
+  {
+    "id": "test-note-626eb6f8-e5cc-42ae-84e0-b1ba7b5df317",
+    "title": "Идеи для проекта #107",
+    "content": "Это простая заметка \"Идеи для проекта #107\". Содержит обычный текст без форматирования.",
+    "folderId": "folder-ideas",
+    "tags": [
+      "tag-idea",
+      "tag-reference"
+    ],
+    "color": "#F59E0B",
+    "coverImage": "https://picsum.photos/seed/test-note-626eb6f8-e5cc-42ae-84e0-b1ba7b5df317/800/400",
+    "isPinned": true,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-10-09T19:07:39.931Z",
+    "updatedAt": "2025-12-13T10:52:50.518Z",
+    "attachments": [],
+    "size": 87
+  },
+  {
+    "id": "test-note-0fdc57de-9f31-47c0-925d-c06437d447f8",
+    "title": "Идеи для проекта #108",
+    "content": "Это простая заметка \"Идеи для проекта #108\". Содержит обычный текст без форматирования.",
+    "folderId": null,
+    "tags": [
+      "tag-project"
+    ],
+    "color": "#10B981",
+    "coverImage": "",
+    "isPinned": true,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-07-20T01:00:09.464Z",
+    "updatedAt": "2025-10-02T14:41:49.437Z",
+    "attachments": [],
+    "size": 87
+  },
+  {
+    "id": "test-note-5ba5961a-ef71-447b-a8a9-7d5ac3196e0d",
+    "title": "Советы по продуктивности #109",
+    "content": "# Советы по продуктивности #109\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": null,
+    "tags": [
+      "tag-project",
+      "tag-idea"
+    ],
+    "color": "#3B82F6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-10-16T14:37:26.512Z",
+    "updatedAt": "2025-10-20T10:34:58.801Z",
+    "attachments": [
+      {
+        "id": "att-34a8dec1-7329-4921-8419-5297d60f582d",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-1751d8ca-4561-4a43-82e1-1fdd48afe8ec",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 163
+  },
+  {
+    "id": "test-note-bdb9a065-7407-45b1-a7c2-f9e8cff734b7",
+    "title": "Финансовый план #110",
+    "content": "Коротко: Финансовый план #110",
+    "folderId": "folder-archive",
+    "tags": [],
+    "color": "#F59E0B",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-03-06T00:39:46.225Z",
+    "updatedAt": "2025-03-16T18:16:55.924Z",
+    "attachments": [],
+    "size": 29
+  },
+  {
+    "id": "test-note-b42815e3-7e7d-4d74-b03b-9afbb8854f28",
+    "title": "Встреча с командой #111",
+    "content": "Заметка \"Встреча с командой #111\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-archive",
+    "tags": [
+      "tag-meeting",
+      "tag-important"
+    ],
+    "color": "#8B5CF6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": true,
+    "isDeleted": false,
+    "createdAt": "2025-08-28T10:12:43.014Z",
+    "updatedAt": "2025-12-07T12:15:01.947Z",
+    "attachments": [
+      {
+        "id": "att-6961b2ed-caf4-4eb5-adb2-3c9c4a1b6e6e",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-c0970f60-60a0-4127-8515-ba7777253846",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 1197
+  },
+  {
+    "id": "test-note-0b90293a-b3f8-423a-b117-205240115c0d",
+    "title": "Исследование технологии #112",
+    "content": "Заметка \"Исследование технологии #112\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-work",
+    "tags": [
+      "tag-idea",
+      "tag-reference"
+    ],
+    "color": "#F59E0B",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-05-21T18:55:16.945Z",
+    "updatedAt": "2026-01-03T17:21:27.626Z",
+    "attachments": [],
+    "size": 1202
+  },
+  {
+    "id": "test-note-8249332b-85a7-4f31-8852-b7f0254050c2",
+    "title": "Советы по продуктивности #113",
+    "content": "<h1>Советы по продуктивности #113</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": "folder-archive",
+    "tags": [
+      "tag-meeting"
+    ],
+    "color": "#EF4444",
+    "coverImage": "",
+    "isPinned": true,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-04-24T20:28:25.566Z",
+    "updatedAt": "2025-10-12T16:02:41.496Z",
+    "attachments": [],
+    "size": 159
+  },
+  {
+    "id": "test-note-a8b5e595-d6a8-4fb8-9c64-380207149f4d",
+    "title": "Список покупок #114",
+    "content": "# Список покупок #114\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": "folder-personal",
+    "tags": [
+      "tag-meeting",
+      "tag-important"
+    ],
+    "color": "#F59E0B",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-08-19T19:15:22.426Z",
+    "updatedAt": "2025-09-08T16:21:14.303Z",
+    "attachments": [
+      {
+        "id": "att-f4c388f2-b6ea-420a-8cd3-6217687ad7c4",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-1e112b9b-07a0-4b27-a696-037abeb0936d",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 153
+  },
+  {
+    "id": "test-note-11f08d0f-04a5-44b1-aa6d-08f192e5fc3e",
+    "title": "План на неделю #115",
+    "content": "Коротко: План на неделю #115",
+    "folderId": null,
+    "tags": [
+      "tag-important"
+    ],
+    "color": "#3B82F6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": true,
+    "isDeleted": false,
+    "createdAt": "2025-06-19T22:44:19.717Z",
+    "updatedAt": "2025-09-20T20:32:11.382Z",
+    "attachments": [],
+    "size": 28
+  },
+  {
+    "id": "test-note-d706f292-2047-4ca2-a7d8-546379e119a8",
+    "title": "Рецепт приготовления #116",
+    "content": "<h1>Рецепт приготовления #116</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": null,
+    "tags": [],
+    "color": "",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-05-27T01:27:23.596Z",
+    "updatedAt": "2025-08-16T01:03:05.625Z",
+    "attachments": [
+      {
+        "id": "att-52cc0cdb-1e6f-466a-a1c2-293b557cbb9c",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-791aa9a4-66be-447d-a398-6459322b7f29",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 155
+  },
+  {
+    "id": "test-note-faa221e8-6966-4d59-9a60-7cfbc1f69105",
+    "title": "Цели на год #117",
+    "content": "Коротко: Цели на год #117",
+    "folderId": "folder-ideas",
+    "tags": [
+      "tag-project",
+      "tag-meeting"
+    ],
+    "color": "#3B82F6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-11-16T12:08:03.883Z",
+    "updatedAt": "2025-12-01T16:12:24.555Z",
+    "attachments": [],
+    "size": 25
+  },
+  {
+    "id": "test-note-3403034b-8566-4003-96d8-f20bce65b8a5",
+    "title": "Ремонт в квартире #118",
+    "content": "<h1>Ремонт в квартире #118</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": "folder-personal",
+    "tags": [],
+    "color": "",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": true,
+    "isDeleted": false,
+    "createdAt": "2025-06-12T07:20:38.391Z",
+    "updatedAt": "2025-06-13T20:02:39.742Z",
+    "attachments": [],
+    "size": 152
+  },
+  {
+    "id": "test-note-71208257-0b36-4c40-a963-4a9f6682d36e",
+    "title": "Размышления о жизни #119",
+    "content": "Коротко: Размышления о жизни #119",
+    "folderId": "folder-personal",
+    "tags": [
+      "tag-important",
+      "tag-todo"
+    ],
+    "color": "#10B981",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-07-29T00:39:15.300Z",
+    "updatedAt": "2025-08-12T13:17:27.640Z",
+    "attachments": [],
+    "size": 33
+  },
+  {
+    "id": "test-note-7d6304c1-0852-421c-996d-1ec75d84d9fb",
+    "title": "Рецепт приготовления #120",
+    "content": "Заметка \"Рецепт приготовления #120\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-archive",
+    "tags": [
+      "tag-important",
+      "tag-todo",
+      "tag-reference"
+    ],
+    "color": "#8B5CF6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": true,
+    "createdAt": "2025-12-20T11:56:07.144Z",
+    "updatedAt": "2025-12-25T19:39:55.801Z",
+    "attachments": [
+      {
+        "id": "att-a1b1d4fc-3bbf-45a3-98b4-97858d7aae9f",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-3465b3d1-0c7c-43d8-8b4b-454a787f2164",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 1199
+  },
+  {
+    "id": "test-note-b5fdd191-4963-4619-9ad9-cf5f3e832396",
+    "title": "Обучение новому навыку #121",
+    "content": "<h1>Обучение новому навыку #121</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": "folder-work",
+    "tags": [
+      "tag-idea",
+      "tag-important",
+      "tag-meeting"
+    ],
+    "color": "#EF4444",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-11-19T17:00:29.649Z",
+    "updatedAt": "2025-11-28T00:11:33.191Z",
+    "attachments": [
+      {
+        "id": "att-cf484efb-6c44-4e2a-a0a4-3c3bdc1e5fd4",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-173a8c69-a5e5-4d19-b4c8-ab6cc8fd380d",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 157
+  },
+  {
+    "id": "test-note-9c1910d7-bee5-4830-8e08-9f64c4100fce",
+    "title": "Советы по продуктивности #122",
+    "content": "Коротко: Советы по продуктивности #122",
+    "folderId": "folder-personal",
+    "tags": [
+      "tag-reference",
+      "tag-idea",
+      "tag-project"
+    ],
+    "color": "#3B82F6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-04-02T08:11:01.277Z",
+    "updatedAt": "2025-11-23T21:22:56.148Z",
+    "attachments": [
+      {
+        "id": "att-07e9abc7-6fab-4e0d-92e9-c8249ac28e95",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-9fb88ceb-2bcc-44d1-93b4-b4c276357843",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 38
+  },
+  {
+    "id": "test-note-7df3f8dc-3e6d-483b-8aee-ec81ce858f25",
+    "title": "Советы по продуктивности #123",
+    "content": "Заметка \"Советы по продуктивности #123\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-ideas",
+    "tags": [],
+    "color": "#8B5CF6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-07-11T22:19:55.887Z",
+    "updatedAt": "2025-10-01T23:59:53.484Z",
+    "attachments": [
+      {
+        "id": "att-cb8695c3-bb50-4e8e-bb44-00b05ce8dd30",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-24d4d675-1707-4d49-a72a-689c9bea4ec0",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 1203
+  },
+  {
+    "id": "test-note-fb654338-5b95-4757-8184-6742ff4b5e3e",
+    "title": "Путешествие мечты #124",
+    "content": "# Путешествие мечты #124\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": "folder-ideas",
+    "tags": [],
+    "color": "#3B82F6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": true,
+    "isDeleted": false,
+    "createdAt": "2025-05-15T18:39:59.317Z",
+    "updatedAt": "2025-12-07T16:31:22.859Z",
+    "attachments": [],
+    "size": 156
+  },
+  {
+    "id": "test-note-bc95f1a1-6536-4cec-aeee-d8029f616498",
+    "title": "Путешествие мечты #125",
+    "content": "# Путешествие мечты #125\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": "folder-personal",
+    "tags": [
+      "tag-project",
+      "tag-reference",
+      "tag-meeting"
+    ],
+    "color": "#F59E0B",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-05-20T04:56:32.742Z",
+    "updatedAt": "2025-09-07T15:27:19.686Z",
+    "attachments": [],
+    "size": 156
+  },
+  {
+    "id": "test-note-38c18cd3-22d3-479c-a85d-4c5ecf1ee490",
+    "title": "Рецепт приготовления #126",
+    "content": "Заметка \"Рецепт приготовления #126\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-ideas",
+    "tags": [
+      "tag-idea"
+    ],
+    "color": "#3B82F6",
+    "coverImage": "",
+    "isPinned": true,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-02-16T18:30:42.307Z",
+    "updatedAt": "2025-07-07T14:02:45.326Z",
+    "attachments": [],
+    "size": 1199
+  },
+  {
+    "id": "test-note-2dee8266-79eb-4d1d-9963-7ddf0365070c",
+    "title": "Ремонт в квартире #127",
+    "content": "# Ремонт в квартире #127\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": "folder-personal",
+    "tags": [
+      "tag-reference",
+      "tag-meeting",
+      "tag-idea"
+    ],
+    "color": "",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": true,
+    "isDeleted": false,
+    "createdAt": "2025-02-21T04:37:13.054Z",
+    "updatedAt": "2025-02-25T14:21:32.519Z",
+    "attachments": [],
+    "size": 156
+  },
+  {
+    "id": "test-note-f4031613-a647-419d-beff-9a7bd13de0e4",
+    "title": "Финансовый план #128",
+    "content": "# Финансовый план #128\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": "folder-archive",
+    "tags": [
+      "tag-important",
+      "tag-meeting"
+    ],
+    "color": "#EF4444",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-03-18T17:54:14.768Z",
+    "updatedAt": "2025-03-22T05:52:47.377Z",
+    "attachments": [],
+    "size": 154
+  },
+  {
+    "id": "test-note-ae8dcc65-55ef-418e-8999-419b5b8f109e",
+    "title": "Путешествие мечты #129",
+    "content": "<h1>Путешествие мечты #129</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": "folder-archive",
+    "tags": [
+      "tag-idea"
+    ],
+    "color": "",
+    "coverImage": "",
+    "isPinned": true,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-03-27T10:11:25.447Z",
+    "updatedAt": "2025-11-13T19:03:00.122Z",
+    "attachments": [],
+    "size": 152
+  },
+  {
+    "id": "test-note-acd20792-4e85-427e-a13c-71637fb280b8",
+    "title": "Ежедневные задачи #130",
+    "content": "# Ежедневные задачи #130\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": "folder-archive",
+    "tags": [
+      "tag-todo"
+    ],
+    "color": "#8B5CF6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-12-20T23:13:56.181Z",
+    "updatedAt": "2025-12-31T17:53:44.846Z",
+    "attachments": [],
+    "size": 156
+  },
+  {
+    "id": "test-note-9d408b20-2bc6-46f5-acc6-69fc5ce2f058",
+    "title": "Исследование технологии #131",
+    "content": "Заметка \"Исследование технологии #131\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-work",
+    "tags": [
+      "tag-idea",
+      "tag-reference",
+      "tag-todo"
+    ],
+    "color": "",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-05-12T06:12:10.243Z",
+    "updatedAt": "2025-09-06T18:01:33.643Z",
+    "attachments": [
+      {
+        "id": "att-ef8bcc3a-d0be-4cf0-86a0-4ff1ccfba0c7",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-a8ddf3fe-3d67-4aa6-9a31-a442700d6ff8",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 1202
+  },
+  {
+    "id": "test-note-18a9163b-3a9a-4481-ad00-51f5087fa848",
+    "title": "Рецепт приготовления #132",
+    "content": "# Рецепт приготовления #132\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": null,
+    "tags": [
+      "tag-important"
+    ],
+    "color": "#3B82F6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-02-28T21:41:53.954Z",
+    "updatedAt": "2025-12-22T08:22:46.321Z",
+    "attachments": [],
+    "size": 159
+  },
+  {
+    "id": "test-note-4f8468b4-142a-4330-82c6-a421ce9ca951",
+    "title": "Путешествие мечты #133",
+    "content": "# Путешествие мечты #133\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": "folder-work",
+    "tags": [
+      "tag-idea",
+      "tag-reference"
+    ],
+    "color": "#3B82F6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-09-14T14:15:15.083Z",
+    "updatedAt": "2025-10-29T06:25:57.462Z",
+    "attachments": [],
+    "size": 156
+  },
+  {
+    "id": "test-note-fa55c7fd-c34d-45ef-a26f-3bb68e42a72e",
+    "title": "Цели на год #134",
+    "content": "Заметка \"Цели на год #134\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-work",
+    "tags": [
+      "tag-meeting",
+      "tag-important"
+    ],
+    "color": "#EF4444",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-01-13T09:59:13.218Z",
+    "updatedAt": "2025-08-26T06:34:03.039Z",
+    "attachments": [
+      {
+        "id": "att-48087c8b-3431-4891-9a37-38be159f9721",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-0b90d9fe-4b25-47fc-aa40-6f762b475625",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 1190
+  },
+  {
+    "id": "test-note-99156462-9e8e-46f9-893d-c6f83dc7b001",
+    "title": "Цели на год #135",
+    "content": "Это простая заметка \"Цели на год #135\". Содержит обычный текст без форматирования.",
+    "folderId": "folder-personal",
+    "tags": [
+      "tag-reference",
+      "tag-todo"
+    ],
+    "color": "#3B82F6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-10-10T16:09:03.997Z",
+    "updatedAt": "2025-12-13T03:05:12.402Z",
+    "attachments": [],
+    "size": 82
+  },
+  {
+    "id": "test-note-0b0b4af5-91e9-4682-9fd2-454f8b688683",
+    "title": "Рецепт приготовления #136",
+    "content": "<h1>Рецепт приготовления #136</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": "folder-work",
+    "tags": [],
+    "color": "#10B981",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-06-05T15:55:06.525Z",
+    "updatedAt": "2025-10-03T08:23:39.213Z",
+    "attachments": [
+      {
+        "id": "att-2d485e67-015a-4866-907a-39143a5d2af0",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-1fe50cf2-cb89-480c-bc54-58f53b508127",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 155
+  },
+  {
+    "id": "test-note-9e1190d2-8051-49c1-8920-05f1698dda78",
+    "title": "Заметки по книге #137",
+    "content": "# Заметки по книге #137\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": null,
+    "tags": [
+      "tag-important",
+      "tag-todo",
+      "tag-reference"
+    ],
+    "color": "",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": true,
+    "createdAt": "2025-10-08T09:44:16.552Z",
+    "updatedAt": "2025-11-03T20:16:57.739Z",
+    "attachments": [],
+    "size": 155
+  },
+  {
+    "id": "test-note-a1ffa0c3-8aa2-4d5c-b9f6-ac6b355a57c3",
+    "title": "Встреча с командой #138",
+    "content": "<h1>Встреча с командой #138</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": "folder-work",
+    "tags": [],
+    "color": "#F59E0B",
+    "coverImage": "",
+    "isPinned": true,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-10-11T09:06:43.851Z",
+    "updatedAt": "2025-10-22T18:10:44.843Z",
+    "attachments": [],
+    "size": 153
+  },
+  {
+    "id": "test-note-2c5ffa40-71ad-4959-abe2-9e36548e4999",
+    "title": "Ремонт в квартире #139",
+    "content": "Заметка \"Ремонт в квартире #139\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-work",
+    "tags": [],
+    "color": "#EF4444",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-09-02T16:37:41.794Z",
+    "updatedAt": "2025-10-22T04:50:11.909Z",
+    "attachments": [],
+    "size": 1196
+  },
+  {
+    "id": "test-note-1aa8a320-f61d-4612-a6ed-334f4eca72f1",
+    "title": "Путешествие мечты #140",
+    "content": "Коротко: Путешествие мечты #140",
+    "folderId": "folder-ideas",
+    "tags": [
+      "tag-reference",
+      "tag-idea",
+      "tag-meeting"
+    ],
+    "color": "#F59E0B",
+    "coverImage": "https://picsum.photos/seed/test-note-1aa8a320-f61d-4612-a6ed-334f4eca72f1/800/400",
+    "isPinned": true,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-06-22T02:06:32.446Z",
+    "updatedAt": "2025-10-11T02:29:36.491Z",
+    "attachments": [],
+    "size": 31
+  },
+  {
+    "id": "test-note-72d7f383-5724-43a9-a1f7-20d3c377208f",
+    "title": "План на неделю #141",
+    "content": "# План на неделю #141\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": "folder-personal",
+    "tags": [
+      "tag-reference",
+      "tag-todo",
+      "tag-meeting"
+    ],
+    "color": "#F59E0B",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-04-08T08:46:28.544Z",
+    "updatedAt": "2025-11-18T10:04:36.962Z",
+    "attachments": [
+      {
+        "id": "att-b284660d-0e2a-4863-8b79-b55ad654c080",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-34abcfd6-8de7-4389-8e55-06622345f1a2",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 153
+  },
+  {
+    "id": "test-note-af31c3e7-1b44-4a67-b0da-eb03579c77b1",
+    "title": "Финансовый план #142",
+    "content": "Коротко: Финансовый план #142",
+    "folderId": null,
+    "tags": [
+      "tag-important",
+      "tag-project",
+      "tag-idea"
+    ],
+    "color": "",
+    "coverImage": "",
+    "isPinned": true,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-06-07T14:28:22.774Z",
+    "updatedAt": "2025-07-08T18:04:18.046Z",
+    "attachments": [
+      {
+        "id": "att-c93272a5-9815-424c-9d08-ed1b9af9a841",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-e5e9cae2-2431-4610-b2a4-9627779a8b9a",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 29
+  },
+  {
+    "id": "test-note-b26078dc-1d18-41af-83ec-4a5a15c555f9",
+    "title": "Обучение новому навыку #143",
+    "content": "<h1>Обучение новому навыку #143</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": "folder-archive",
+    "tags": [],
+    "color": "#3B82F6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-10-14T15:34:19.622Z",
+    "updatedAt": "2025-12-09T10:39:23.174Z",
+    "attachments": [],
+    "size": 157
+  },
+  {
+    "id": "test-note-fd64322f-f0fd-4ce6-a499-276fc133c860",
+    "title": "Цели на год #144",
+    "content": "# Цели на год #144\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": "folder-ideas",
+    "tags": [],
+    "color": "",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-11-03T07:01:27.208Z",
+    "updatedAt": "2025-11-06T00:55:47.567Z",
+    "attachments": [
+      {
+        "id": "att-7886a7ee-7585-43de-b972-157906f5bc33",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-e85513de-43c2-4172-aa36-e9509e76c3be",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 150
+  },
+  {
+    "id": "test-note-56e62d0c-d5b7-4745-83ae-f35c532fe2ea",
+    "title": "Рецепт приготовления #145",
+    "content": "Заметка \"Рецепт приготовления #145\" с длинным содержанием. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+    "folderId": "folder-work",
+    "tags": [],
+    "color": "",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-05-12T19:33:53.277Z",
+    "updatedAt": "2025-05-14T11:07:29.262Z",
+    "attachments": [
+      {
+        "id": "att-49d5b418-46ba-403e-93c8-f658b7456135",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-6e9c2037-ca82-4f9f-9e93-381fff607645",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 1199
+  },
+  {
+    "id": "test-note-3dfe826d-99ca-4243-b824-60f8832673fe",
+    "title": "Встреча с командой #146",
+    "content": "<h1>Встреча с командой #146</h1>\n<p>Это заметка с <strong>HTML</strong> разметкой.</p>\n<ul>\n  <li>Элемент списка 1</li>\n  <li>Элемент списка 2</li>\n</ul>",
+    "folderId": "folder-work",
+    "tags": [
+      "tag-important"
+    ],
+    "color": "",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-04-30T00:32:36.832Z",
+    "updatedAt": "2025-07-24T13:49:01.492Z",
+    "attachments": [],
+    "size": 153
+  },
+  {
+    "id": "test-note-b4015405-57ef-4f56-a88e-1d58c330fe60",
+    "title": "Цели на год #147",
+    "content": "Коротко: Цели на год #147",
+    "folderId": "folder-archive",
+    "tags": [],
+    "color": "#8B5CF6",
+    "coverImage": "https://picsum.photos/seed/test-note-b4015405-57ef-4f56-a88e-1d58c330fe60/800/400",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-09-19T00:51:51.342Z",
+    "updatedAt": "2025-11-23T07:25:03.766Z",
+    "attachments": [],
+    "size": 25
+  },
+  {
+    "id": "test-note-709e154d-bb7d-4e3d-90cd-fe1237c6c4f4",
+    "title": "Путешествие мечты #148",
+    "content": "# Путешествие мечты #148\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": "folder-personal",
+    "tags": [],
+    "color": "#EF4444",
+    "coverImage": "https://picsum.photos/seed/test-note-709e154d-bb7d-4e3d-90cd-fe1237c6c4f4/800/400",
+    "isPinned": true,
+    "isArchived": false,
+    "isDeleted": true,
+    "createdAt": "2025-04-16T04:12:50.867Z",
+    "updatedAt": "2025-05-09T06:19:11.070Z",
+    "attachments": [],
+    "size": 156
+  },
+  {
+    "id": "test-note-78f22b47-a077-45a0-8103-26f9a31b073e",
+    "title": "План на неделю #149",
+    "content": "# План на неделю #149\n\nЭто заметка в формате **Markdown**.\n\n## Подзаголовок\n\n- Пункт 1\n- Пункт 2\n- Пункт 3\n\n```javascript\nconsole.log(\"Пример кода\");\n```",
+    "folderId": "folder-personal",
+    "tags": [],
+    "color": "#3B82F6",
+    "coverImage": "",
+    "isPinned": true,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-11-06T06:15:46.337Z",
+    "updatedAt": "2025-11-13T20:21:07.200Z",
+    "attachments": [
+      {
+        "id": "att-0191cb75-1def-4f0b-a544-9c72eb2fef71",
+        "name": "document.pdf",
+        "type": "application/pdf",
+        "size": 1024000
+      },
+      {
+        "id": "att-4fc9ace2-7fed-43fd-a070-b99521ad8f79",
+        "name": "image.png",
+        "type": "image/png",
+        "size": 512000
+      }
+    ],
+    "size": 153
+  },
+  {
+    "id": "test-note-bb38fa6b-459e-42a9-8dfc-3a0aaca6e782",
+    "title": "Исследование технологии #150",
+    "content": "Это простая заметка \"Исследование технологии #150\". Содержит обычный текст без форматирования.",
+    "folderId": "folder-work",
+    "tags": [],
+    "color": "#3B82F6",
+    "coverImage": "",
+    "isPinned": false,
+    "isArchived": false,
+    "isDeleted": false,
+    "createdAt": "2025-02-20T16:25:56.583Z",
+    "updatedAt": "2025-02-21T18:27:51.604Z",
+    "attachments": [],
+    "size": 94
+  }
+]
